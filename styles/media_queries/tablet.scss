@@ -1,6 +1,8 @@
 @media (min-width: 768px) {
+/////////////////
     .section-one {
         height: 700px;
+        background-position: bottom;
         img {
             width: 320px;
             height: 400px;
@@ -9,7 +11,7 @@
             font-size: 2.6rem;
         }
     }
-    //////////////
+ //////////////
     .section-two {
         img {
             width: 250px;

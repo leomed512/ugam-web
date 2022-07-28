@@ -1,6 +1,7 @@
 @media (min-width: 768px) {
   .section-one {
     height: 700px;
+    background-position: bottom;
   }
   .section-one img {
     width: 320px;

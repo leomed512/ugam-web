@@ -57,6 +57,12 @@
   color: #000;
 }
 
+.grey-div {
+  height: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f5f6), color-stop(#edeff0), color-stop(#e6e8ea), color-stop(#e0e2e4), to(#d9dcde));
+  background-image: linear-gradient(to bottom, #f4f5f6, #edeff0, #e6e8ea, #e0e2e4, #d9dcde);
+}
+
 .section-two img {
   width: 150px;
 }
