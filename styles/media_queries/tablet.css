@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  .section-one {
+    height: 700px;
+  }
+  .section-one img {
+    width: 320px;
+    height: 400px;
+  }
+  .section-one h1 {
+    font-size: 2.6rem;
+  }
+
+  .section-two img {
+    width: 250px;
+    -webkit-margin-after: 30px;
+            margin-block-end: 30px;
+  }
+  .section-two h3 {
+    font-size: 1.4rem;
+  }
+}

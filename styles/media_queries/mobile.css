@@ -1,0 +1,9 @@
+@media (min-width: 550px) {
+  .section-one {
+    height: 700px;
+  }
+
+  .section-two h3 {
+    font-size: 1.2rem;
+  }
+}
