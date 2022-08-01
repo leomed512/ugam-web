@@ -26,4 +26,8 @@
   .card-ugam h5 {
     font-size: 1.5rem;
   }
+
+  #galleryOne img {
+    max-height: 360px;
+  }
 }

@@ -6,4 +6,8 @@
   .section-two h3 {
     font-size: 1.2rem;
   }
+
+  #galleryOne img {
+    max-height: 370px;
+  }
 }

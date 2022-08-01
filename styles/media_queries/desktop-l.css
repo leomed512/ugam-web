@@ -7,4 +7,8 @@
   .card-ugam {
     min-height: 730px;
   }
+
+  #galleryOne img {
+    max-height: 700px;
+  }
 }
