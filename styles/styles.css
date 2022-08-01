@@ -57,10 +57,16 @@
   color: #000;
 }
 
-.grey-div {
+.grey-div-down {
   height: 50px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f5f6), color-stop(#edeff0), color-stop(#e6e8ea), color-stop(#e0e2e4), to(#d9dcde));
-  background-image: linear-gradient(to bottom, #f4f5f6, #edeff0, #e6e8ea, #e0e2e4, #d9dcde);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6fbfe), color-stop(#f1f5f8), color-stop(#ebeef1), color-stop(#e6e8eb), to(#e0e2e4));
+  background-image: linear-gradient(to bottom, #f6fbfe, #f1f5f8, #ebeef1, #e6e8eb, #e0e2e4);
+}
+
+.grey-div-up {
+  height: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e2e4), color-stop(#e6e8eb), color-stop(#ebeef1), color-stop(#f1f5f8), to(#f6fbfe));
+  background-image: linear-gradient(to bottom, #e0e2e4, #e6e8eb, #ebeef1, #f1f5f8, #f6fbfe);
 }
 
 .section-two img {
@@ -80,7 +86,6 @@
 }
 
 .card-ugam {
-  width: 300px;
   -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
 }

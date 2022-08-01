@@ -11,4 +11,11 @@
   .section-two h3 {
     font-size: 1.6rem;
   }
+
+  .card-ugam {
+    min-height: 700px;
+  }
+  .card-ugam h5 {
+    font-size: 1.7rem;
+  }
 }

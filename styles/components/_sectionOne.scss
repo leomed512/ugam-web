@@ -18,8 +18,13 @@
         color: #000;
     }
    
-}
-.grey-div {
+}    
+.grey-div-down {
     height: 50px;
-    background-image: linear-gradient(to bottom, #f4f5f6, #edeff0, #e6e8ea, #e0e2e4, #d9dcde);
+    background-image: linear-gradient(to bottom, #f6fbfe, #f1f5f8, #ebeef1, #e6e8eb, #e0e2e4);
+}
+
+.grey-div-up {
+    height: 50px;
+    background-image: linear-gradient(to bottom, #e0e2e4, #e6e8eb, #ebeef1, #f1f5f8, #f6fbfe);
 }
