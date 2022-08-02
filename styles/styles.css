@@ -159,14 +159,6 @@ html {
   z-index: 2;
 }
 
-.expeditionCards a {
-  text-decoration: none;
-  color: var(--bs-card-color);
-}
-.expeditionCards a:hover {
-  color: #000;
-}
-
 .card-expedition {
   -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
