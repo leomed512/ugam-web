@@ -136,8 +136,7 @@ html {
 .galleryTwo {
   position: relative;
 }
-.galleryTwo h4 {
-  padding: 5px;
+.galleryTwo h5 {
   font-size: 1.2rem;
   max-width: 350px;
 }
@@ -151,11 +150,24 @@ html {
 }
 
 .dome {
-  max-width: 450px;
+  max-width: 500px;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.9)), to(transparent));
   background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent);
   position: absolute;
   bottom: 0;
   left: 0;
   z-index: 2;
+}
+
+.expeditionCards a {
+  text-decoration: none;
+  color: var(--bs-card-color);
+}
+.expeditionCards a:hover {
+  color: #000;
+}
+
+.card-expedition {
+  -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
 }
