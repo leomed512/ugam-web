@@ -27,7 +27,19 @@
     font-size: 1.5rem;
   }
 
-  #galleryOne img {
+  .galleryOne img {
     max-height: 360px;
+  }
+
+  .galleryTwo {
+    position: relative;
+  }
+  .galleryTwo h4 {
+    padding: 5px;
+    font-size: 1.6rem;
+    max-width: 450px;
+  }
+  .galleryTwo .carousel {
+    max-height: 450px;
   }
 }

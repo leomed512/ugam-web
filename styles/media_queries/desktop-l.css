@@ -8,7 +8,11 @@
     min-height: 730px;
   }
 
-  #galleryOne img {
+  .galleryOne img {
     max-height: 700px;
+  }
+
+  .galleryTwo .carousel {
+    max-height: 950px;
   }
 }

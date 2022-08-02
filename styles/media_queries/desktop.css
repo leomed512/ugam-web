@@ -19,7 +19,11 @@
     font-size: 1.7rem;
   }
 
-  #galleryOne img {
+  .galleryOne img {
     max-height: 460px;
+  }
+
+  .galleryTwo .carousel {
+    max-height: 550px;
   }
 }

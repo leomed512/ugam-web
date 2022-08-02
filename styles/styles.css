@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #FFB300;
 }
@@ -110,15 +114,15 @@
           filter: drop-shadow(1px 1px 5px #4D4D4D);
 }
 
-#galleryOne {
+.galleryOne {
   position: relative;
 }
 
-#galleryOne img {
+.galleryOne img {
   max-height: 280px;
 }
 
-#galleryOne .overlay {
+.galleryOne .overlay {
   z-index: 2;
   position: absolute;
   top: 0;
@@ -127,4 +131,31 @@
   right: 0;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), to(transparent));
   background: linear-gradient(to right, rgba(255, 255, 255, 0.9), transparent);
+}
+
+.galleryTwo {
+  position: relative;
+}
+.galleryTwo h4 {
+  padding: 5px;
+  font-size: 1.2rem;
+  max-width: 350px;
+}
+.galleryTwo .carousel {
+  max-height: 300px;
+  overflow: hidden;
+}
+.galleryTwo .carousel .item img {
+  width: 100%;
+  height: auto;
+}
+
+.dome {
+  max-width: 450px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.9)), to(transparent));
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
 }

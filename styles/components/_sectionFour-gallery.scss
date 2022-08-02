@@ -1,11 +1,10 @@
-#galleryOne {
+.galleryOne {
     position: relative;
-
 }
-#galleryOne img {
+.galleryOne img {
         max-height: 280px;
 }
-#galleryOne .overlay {
+.galleryOne .overlay {
     z-index: 2;
     position: absolute;
     top: 0;

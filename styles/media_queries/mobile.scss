@@ -11,7 +11,14 @@
     }
 
 ////// 
-#galleryOne img {
+.galleryOne img {
     max-height: 370px;
-}    
+}  
+
+/////////////////// 
+.galleryTwo {
+    .carousel {
+        max-height: 350px;
+      }
+}
 }

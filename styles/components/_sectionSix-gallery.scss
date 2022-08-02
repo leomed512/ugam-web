@@ -1,0 +1,27 @@
+.galleryTwo {
+    position: relative;
+    h4 {
+        padding: 5px;
+       font-size: 1.2rem;  
+       max-width: 350px;
+    }
+    .carousel {
+        max-height: 300px;
+        overflow: hidden;
+      
+        .item img {
+          width: 100%;
+          height: auto;
+        }
+      }
+}
+
+.dome {
+    max-width: 450px;
+    background: linear-gradient(to  top, rgba(255, 255, 255, 0.9), transparent);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    //color: $light;
+}
