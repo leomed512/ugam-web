@@ -168,6 +168,15 @@ body {
           box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
+#recipeCarousel .card-expedition img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
 @media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
     display: none;
