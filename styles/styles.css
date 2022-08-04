@@ -1,3 +1,40 @@
+@media (max-width: 767px) {
+  .expedition-inner .expedition-item > div {
+    display: none;
+  }
+
+  .expedition-inner .expedition-item > div:first-child {
+    display: block;
+  }
+}
+.expedition-inner .expedition-item.active,
+.expedition-inner .expedition-item-next,
+.expedition-inner .expedition-item-prev {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  .expedition-inner .expedition-item-end.active,
+.expedition-inner .expedition-item-next {
+    -webkit-transform: translateX(25%);
+            transform: translateX(25%);
+  }
+
+  .expedition-inner .expedition-item-start.active,
+.expedition-inner .expedition-item-prev {
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
+}
+.expedition-inner .expedition-item-end,
+.expedition-inner .expedition-item-start {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
 * {
   margin: 0;
   padding: 0;
