@@ -1,15 +1,15 @@
 @media (max-width: 767px) {
-  .expedition-inner .expedition-item > div {
+  .carousel-inner .carousel-item > div {
     display: none;
   }
 
-  .expedition-inner .expedition-item > div:first-child {
+  .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
 }
-.expedition-inner .expedition-item.active,
-.expedition-inner .expedition-item-next,
-.expedition-inner .expedition-item-prev {
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,11 +177,11 @@ html {
   font-size: 1.2rem;
   max-width: 350px;
 }
-.galleryTwo .carousel {
+.galleryTwo .galleryTwo-carousel {
   max-height: 300px;
   overflow: hidden;
 }
-.galleryTwo .carousel .item img {
+.galleryTwo .galleryTwo-carousel .item img {
   width: 100%;
   height: auto;
 }

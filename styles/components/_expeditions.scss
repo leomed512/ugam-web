@@ -1,15 +1,15 @@
 @media (max-width: 767px) {
-    .expedition-inner .expedition-item > div {
+    .carousel-inner .carousel-item > div {
         display: none;
     }
-    .expedition-inner .expedition-item > div:first-child {
+    .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
 }
 
-.expedition-inner .expedition-item.active,
-.expedition-inner .expedition-item-next,
-.expedition-inner .expedition-item-prev {
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
     display: flex;
 }
 
@@ -31,3 +31,4 @@
 .expedition-inner .expedition-item-start { 
   transform: translateX(0);
 }
+
