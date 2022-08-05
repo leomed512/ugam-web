@@ -26,3 +26,11 @@
         filter: drop-shadow(1px 1px 5px $dark);
     }
 }
+
+///// responsive card image!!!!!!
+#aboutus .imageUs img { 
+    object-fit: cover;
+    object-position: center;
+    height: 40vh;
+    overflow: hidden;
+}

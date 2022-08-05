@@ -118,6 +118,15 @@ body {
           filter: drop-shadow(1px 1px 5px #4D4D4D);
 }
 
+#aboutus .imageUs img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 40vh;
+  overflow: hidden;
+}
+
 .galleryOne {
   position: relative;
 }
