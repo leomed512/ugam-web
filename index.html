@@ -218,9 +218,9 @@
 
          <!-- expeditions -->
     <div class="container mt-3 mb-3">
-      <div class="text-center">
+      <div class="text-center mb-4">
         <h2>Expediciones</h2>
-        <small>Conoce </small>
+        <small>Conoce todo lo que las montañas de Venezuela tienen para ti y los tuyos!</small>
       </div>
       
       <div class="row  my-auto justify-content-center">
@@ -228,8 +228,8 @@
             <div class="carousel-inner expedition-inner" role="listbox">
                 <div class="carousel-item expedition-item active">
 
-                  <div class="col-md-6 col-lg-4 mb-3 me-md-2">
-                    <div class="card card-expedition rounded rounded-4">
+                  <div class="col-md-6 col-lg-4 mb-3 me-md-2 ">
+                    <div class="card card-expedition rounded rounded-4 pb-1">
                       <img class="img-fluid" alt="100%x280" src="https://res.cloudinary.com/arawato666/image/upload/v1659287878/UGAM/xample2_ffgikw.png">
                       <div class="card-body">
                         <h5 class="text-center">
@@ -238,13 +238,13 @@
                         <ul class="card-text ">
                           <li>Altitud: 4200 msnm</li>
                           <li>Dificultad: intermedia</li>
-                          <li>Parque Nacional Sierra Nevada</li>
                           <li>Tipo de actividad: excursión de varios días con escalada en roca deportiva y clásica</li>
                         </ul>
                         <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                           Saber más
                         </a>
                       </div>
+                      
                     </div>
                   </div>
   
@@ -260,7 +260,6 @@
                         <ul class="card-text ">
                           <li>Altitud: 4984 msnm</li>
                           <li>Dificultad: alta</li>
-                          <li>Parque Nacional Sierra Nevada</li>
                           <li>Tipo de actividad: excursión de varios días con escalada en roca y nieve (temporada invernal).</li>
                         </ul>
                         <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
@@ -282,7 +281,6 @@
                         <ul class="card-text ">
                           <li>Altitud: 4600 msnm</li>
                           <li>Dificultad: intermedia-alta</li>
-                          <li>Parque Nacional Sierra Nevada</li>
                           <li>Tipo de actividad: recorrido por la laguna más alta de Venezuela con excursión de varios días</li>
                         </ul>
                         <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
@@ -304,7 +302,6 @@
                         <ul class="card-text ">
                           <li>Altitud: 4922 msnm</li>
                           <li>Dificultad: alta inferior</li>
-                          <li>Parque Nacional Sierra Nevada</li>
                           <li>Tipo de actividad: tercer pico más alto del país, excursión de varios días con escalada en roca y nieve</li>
                         </ul>
                         <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
@@ -326,7 +323,6 @@
                         <ul class="card-text ">
                           <li>Altitud: 4800 msnm</li>
                           <li>Dificultad: Intermedia-alta</li>
-                          <li>Parque Nacional Sierra Nevada</li>
                           <li>Tipo de actividad: excursión enfocada en escalada clásica por cumbres míticas por mucho tiempo sin ser exploradas</li>
                         </ul>
                         <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
@@ -348,8 +344,7 @@
                         <ul class="card-text ">
                           <li>Altitud: 4920msnm</li>
                           <li>Dificultad: alta-inferior</li>
-                          <li>Parque Nacional Sierra Nevada</li>
-                          <li>Tipo de actividad: viaje al segundo pico más alto del país y el último glaciar. Acampada de varios días con escalada sencilla</li>
+                          <li>Tipo de actividad: viaje al segundo pico más alto del país y el último glaciar</li>
                         </ul>
                         <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                           Saber más
@@ -375,10 +370,29 @@
 
         <!-- contact form -->
   <section class="contactForm">
-    <div class="container-fluid">
-      <article>
-        <h3>Contáctanos</h3>
-        <h5></h5>
+    <div class="container-fluid pb-5">
+      <article class="pt-5 d-flex flex-column align-items-center heading">
+        <h2 class="fw-bold">Contáctanos</h2>
+        <h5 class="fw-light my-3 w-75 text-center">Escribenos para información sobre excursiones, asesoramiento técnico, eventos, cursos formativos, contactar a nuestro equipo de trabajo </h5>
+      </article>
+      <article class="container">
+        <form>
+          <div class="mb-3 row">
+            <div class="form-label col-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="form-label col-12 col-md-6">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" >
+            </div>
+          </div>
+          <div class="mb-3 form-label">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+            <small class="form-text text-muted">Recuerda dejar tu información de contacto</small>
+          </div>
+         
+          <button type="submit" class="btn btn-warning col-6 col-lg-4 d-grid mx-auto">Enviar</button>
+
+        </form>
       </article>
     </div>
   </section>
