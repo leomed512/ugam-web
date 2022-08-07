@@ -1,0 +1,36 @@
+.footer {
+    background-color: $dark;
+    min-height: 20vh;
+    color: $light;
+    a {
+        text-decoration: none;
+        color: $offwhite;
+    }
+    a:hover {
+        color: $CTA;
+    }
+
+    ul {
+        padding-inline-start: 0;
+        li {
+            text-align: left;
+            list-style: none;
+            padding: 5px 0;
+        }
+    }
+    .rrss img {
+        width:40px;
+        height: 40px;
+
+        filter: invert(100%);
+    }
+    .rrss a img:hover {
+        filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
+    }
+    .contact-icons img {
+        filter: invert(100%);
+    }
+    .contact-icons a:hover {
+        filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
+    }
+}

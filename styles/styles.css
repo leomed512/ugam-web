@@ -1,3 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .contactForm {
   background-color: #E2E2E2;
 }
@@ -13,19 +28,44 @@
   font-size: 12px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.footer {
+  background-color: #4D4D4D;
+  min-height: 20vh;
+  color: #FFF;
 }
-
-html {
-  overflow-x: hidden;
+.footer a {
+  text-decoration: none;
+  color: #EDEDED;
 }
-
-body {
-  overflow-x: hidden;
+.footer a:hover {
+  color: #FFB300;
+}
+.footer ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+.footer ul li {
+  text-align: left;
+  list-style: none;
+  padding: 5px 0;
+}
+.footer .rrss img {
+  width: 40px;
+  height: 40px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+.footer .rrss a img:hover {
+  -webkit-filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
+          filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
+}
+.footer .contact-icons img {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+.footer .contact-icons a:hover {
+  -webkit-filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
+          filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
 }
 
 .navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
