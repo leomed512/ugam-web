@@ -373,20 +373,20 @@
     <div class="container-fluid pb-5">
       <article class="pt-5 d-flex flex-column align-items-center heading">
         <h2 class="fw-bold">Contáctanos</h2>
-        <h5 class="fw-light my-3 w-75 text-center">Escribenos para información sobre excursiones, asesoramiento técnico, eventos, cursos formativos, contactar a nuestro equipo de trabajo </h5>
+        <h5 class="fw-light my-3 w-75 text-center fs-5">Escribenos para información sobre excursiones, asesoramiento técnico, eventos, cursos formativos, contactar a nuestro equipo de trabajo </h5>
       </article>
       <article class="container">
         <form>
           <div class="mb-3 row">
             <div class="form-label col-12 col-md-6">
-              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
             </div>
             <div class="form-label col-12 col-md-6">
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" >
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
             </div>
           </div>
           <div class="mb-3 form-label">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje" required></textarea>
             <small class="form-text text-muted">Recuerda dejar tu información de contacto</small>
           </div>
          
@@ -403,17 +403,20 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Mensaje enviado!</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Confirma tu mensaje</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="mb-3">
-            <small class="form-label">Gracias por escribirnos! Nuestro equipo se pondrá en contacto contigo muy pronto para atender tu mensaje.</small>
+            <small class="form-label fs-6">Gracias por escribirnos! <strong>Estás a punto enviar tu mensaje. </strong>Revisa que contenga tu información de contacto.</small>
           </div>
+          <div id="emailAlertmessage"></div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Enviar mensaje</button>
+          <button type="button" class="btn btn-primary" id="emailAlertButton"  onClick="setTimeout(function(){
+            window.location.reload();
+         }, 1200);" >Enviar mensaje</button>
         </div>
       </div>
     </div>
@@ -428,5 +431,5 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 <script src="./scripts/slider.js"></script>
-
+<script src="./scripts/emailAlert.js"></script>
 </html>

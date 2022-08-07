@@ -9,6 +9,10 @@
           box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
+#emailModal .modal-body h5 {
+  font-size: 12px;
+}
+
 * {
   margin: 0;
   padding: 0;
