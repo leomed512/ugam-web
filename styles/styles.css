@@ -55,8 +55,13 @@ body {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), transparent);
 }
 
+.listDisplay {
+  background-color: #E2E2E2;
+}
+
 .listDisplay a {
   background-color: #E2E2E2;
+  border: none;
 }
 
 .contactForm {
