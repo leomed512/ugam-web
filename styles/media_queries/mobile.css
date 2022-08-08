@@ -14,4 +14,8 @@
   .galleryTwo .galleryTwo-carousel {
     max-height: 350px;
   }
+
+  .organization {
+    height: 600px;
+  }
 }
