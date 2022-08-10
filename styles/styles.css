@@ -143,12 +143,7 @@ body {
           padding-block-start: 10px;
 }
 
-.main-logo img:hover {
-  -webkit-filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
-          filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
-}
-
-.main-logo h1:hover {
+.main-logo:hover {
   -webkit-filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
           filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
 }
@@ -256,10 +251,9 @@ body {
 }
 
 .galleryOne .overlay {
-  height: 5vh;
   z-index: 2;
   position: absolute;
-  top: 5px;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
