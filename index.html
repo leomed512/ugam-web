@@ -16,10 +16,13 @@
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://res.cloudinary.com/arawato666/image/upload/v1658965362/UGAM/main_logo__copia_-removebg-preview_ybse9b.png" type="image/x-icon" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Navbar -->
-    <section class="header" id="header-scroll">
+    <header class="header" id="header-scroll">
         <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
             <div class="container-fluid ms-4 me-4 mt-3 mb-3">
             <a class="navbar-brand main-logo" href="index.html">
@@ -49,12 +52,12 @@
               </div>
             </div>
           </nav>
-    </section>
+    </header>
     <!-- / Navbar -->
     <!-- section one -->
     <section class="section-one p-0">
         <img src="https://res.cloudinary.com/arawato666/image/upload/v1658958764/UGAM/main_logo_upjbsi.png" alt="UGAM Venezuela logo" class="animate__animated animate__pulse animate__infinite animate__slow">    
-        <h2 class="pt-4 text-center">
+        <h2 class="pt-4 text-center fs-1">
             Por una montaña más segura!
         </h2>
     </section>
@@ -401,8 +404,8 @@
   <!-- footer -->
   <footer class="footer pt-3">
     <div class="container">
-        <div class="row text-center pb-4 pt-4">
-            <div class="col-12 col-md-4 col-lg-3 ">
+        <div class="row text-center pb-4 pt-4 px-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
               <h4 class="text-decoration-underline text-start">La Asociación</h4>
               <ul>
                 <li><a href="#">Quiénes somos</a></li>
@@ -412,7 +415,7 @@
               </ul> 
             </div>
 
-            <div class="col-12 col-md-4 col-lg-3 contact-icons">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 contact-icons">
               <h4 class="text-decoration-underline text-start" >Contáctanos</h4>
               <ul>
                 <li><a href="#contactFormContainer" id="animateButton">
@@ -428,16 +431,22 @@
                   </div>
                   </a>
                 </li>
+                <li>
+                  <div>
+                    <img src="https://res.cloudinary.com/arawato666/image/upload/v1660164793/UGAM/icons/telephone_1_vnfbmw.png" alt="">
+                    +58 274 244 33 15
+                  </div>
+                </li>
                 <li><a href="https://www.google.com/maps/place/Unidad+De+Respuesta+Operativa/@8.6199052,-71.1385016,17z/data=!3m1!4b1!4m5!3m4!1s0x8e6486d32b7feff3:0xc99f178519bb163c!8m2!3d8.6199052!4d-71.1363076" target="_blank">
                   <div>
                     <img src="https://res.cloudinary.com/arawato666/image/upload/v1659895822/UGAM/icons/maps-and-flags_1_wcquru.png" alt="">
-                    Calle principal El Amparo. Mérida, Venezuela
+                    Calle principal, El Amparo. Mérida, Venezuela
                   </div>
                   </a></li>
               </ul> 
             </div>
 
-            <div class="col-12 col-md-4 col-lg-3 rrss pb-5">
+            <div class="col-12 col-md-4 col-lg-3 rrss pb-5 pt-3">
               <h4 class="text-decoration-underline">Nuestra Comunidad</h4>
               <div class="d-flex justify-content-evenly pt-4">
                 <a href="https://www.instagram.com/ugamvenezuela/?hl=en" target="_blank"><img src=" https://res.cloudinary.com/arawato666/image/upload/v1659288281/UGAM/icons/instagramldpi_hcgb3g.png" alt="UGAM venezuela instagram"></a>
@@ -445,15 +454,19 @@
                 <a href="#"><img src="https://res.cloudinary.com/arawato666/image/upload/v1659288280/UGAM/icons/youtubeldpi_t1nfrk.png" alt="UGAM venezuela youtube"></a>
               </div>
             </div>
-            <div class="col-6 offset-3 offset-md-4 offset-lg-0 col-md-4 col-lg-2"><img class="img-fluid" src="https://res.cloudinary.com/arawato666/image/upload/v1659890390/UGAM/UGAM_PNG_blanco_vhsn0z.png" alt="ugam logo"></div>
+            <div class="col-6 offset-3 offset-md-4 offset-lg-0 col-md-4 col-lg-2"><img class="img-fluid" src="https://res.cloudinary.com/arawato666/image/upload/v1659890390/UGAM/UGAM_PNG_blanco_vhsn0z.png" alt="ugam logo">
+            </div>
+            <div class="col-12 text-center mt-5 ugam-rights">
+              <small>© 2022 UGAM Venezuela. Todos los derechos reservados. </small>
+            </div>
         </div>
     </div>
   </footer>
-  <!-- /footer -->
+<!-- /footer -->
   
   <!-- MODAL EMAIL -->
   <div class="modal fade" id="modalEmail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="staticBackdropLabel">Confirma tu mensaje</h5>

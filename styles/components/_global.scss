@@ -2,6 +2,8 @@ $offwhite: #EDEDED;
 $CTA: #FFB300;
 $light: #FFF;
 $dark: #4D4D4D;
+$main-font: 'Ubuntu', sans-serif;
+$title-font: 'Carter One', cursive;
 
 
 * {
@@ -12,6 +14,7 @@ $dark: #4D4D4D;
 
 html {
     overflow-x: hidden;
+    font-family: $main-font;
 }
 body {
     overflow-x: hidden;

@@ -16,10 +16,13 @@
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://res.cloudinary.com/arawato666/image/upload/v1658965362/UGAM/main_logo__copia_-removebg-preview_ybse9b.png" type="image/x-icon" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Navbar -->
-    <section class="header" id="header-scroll">
+    <header class="header" id="header-scroll">
         <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
             <div class="container-fluid ms-4 me-4 mt-3 mb-3">
             <a class="navbar-brand main-logo" href="index.html">
@@ -49,7 +52,7 @@
               </div>
             </div>
           </nav>
-    </section>
+    </header>
     <!-- / Navbar -->
     <!-- section one -->
     <section class="organization p-0">
@@ -64,19 +67,19 @@
    <!-- sidebar -->
    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4 listDisplay col-8 col-sm-6 pb-3 pb-sm-0 px-0 pt-2 pt-md-3 pt-lg-4">
+        <div class="col-md-4 listDisplay col-12 pb-3 pb-sm-0 px-0 pt-2 pt-md-3 pt-lg-4">
           <div class="list-group list-group-numbered listDisplay-fixed" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action listDisplay active rounded-0" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Quiénes somos</a>
+            <a class="list-group-item list-group-item-action listDisplay active rounded-0 " id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Quiénes somos</a>
             <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Historia de UGAM</a>
             <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Actividades</a>
             <a class="list-group-item list-group-item-action rounded-0" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Equipo de Guías UGAM</a>
           </div>
         </div>
-        <div class="col-md-8 col-12 py-3">
+        <div class="col-md-8 col-12 py-3 organization-content">
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active px-md-5 px-sm-3 px-2" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
               
-             <h3>UGAM Quienes somos?</h3>
+             <h3>¿Quiénes somos?</h3>
               <p class="pt-2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore voluptate est possimus, dolor quisquam quam fuga at vel nulla quos rerum voluptates ratione molestias quidem dolore consequatur. Exercitationem, labore velit.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum voluptates, repellat dolor reprehenderit molestiae quos, esse nemo repellendus perferendis autem. Ea illum mollitia pariatur veniam doloribus earum distinctio quisquam?
@@ -349,12 +352,14 @@
    
    <!-- / sidebar -->
         
+<!--  -->
 
+<!--  -->
   <!-- footer -->
   <footer class="footer pt-3">
     <div class="container">
-        <div class="row text-center pb-4 pt-4">
-            <div class="col-12 col-md-4 col-lg-3 ">
+        <div class="row text-center pb-4 pt-4 px-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
               <h4 class="text-decoration-underline text-start">La Asociación</h4>
               <ul>
                 <li><a href="#">Quiénes somos</a></li>
@@ -364,7 +369,7 @@
               </ul> 
             </div>
 
-            <div class="col-12 col-md-4 col-lg-3 contact-icons">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 contact-icons">
               <h4 class="text-decoration-underline text-start" >Contáctanos</h4>
               <ul>
                 <li><a href="#contactFormContainer" id="animateButton">
@@ -380,16 +385,22 @@
                   </div>
                   </a>
                 </li>
+                <li>
+                  <div>
+                    <img src="https://res.cloudinary.com/arawato666/image/upload/v1660164793/UGAM/icons/telephone_1_vnfbmw.png" alt="">
+                    +58 274 244 33 15
+                  </div>
+                </li>
                 <li><a href="https://www.google.com/maps/place/Unidad+De+Respuesta+Operativa/@8.6199052,-71.1385016,17z/data=!3m1!4b1!4m5!3m4!1s0x8e6486d32b7feff3:0xc99f178519bb163c!8m2!3d8.6199052!4d-71.1363076" target="_blank">
                   <div>
                     <img src="https://res.cloudinary.com/arawato666/image/upload/v1659895822/UGAM/icons/maps-and-flags_1_wcquru.png" alt="">
-                    Calle principal El Amparo. Mérida, Venezuela
+                    Calle principal, El Amparo. Mérida, Venezuela
                   </div>
                   </a></li>
               </ul> 
             </div>
 
-            <div class="col-12 col-md-4 col-lg-3 rrss pb-5">
+            <div class="col-12 col-md-4 col-lg-3 rrss pb-5 pt-3">
               <h4 class="text-decoration-underline">Nuestra Comunidad</h4>
               <div class="d-flex justify-content-evenly pt-4">
                 <a href="https://www.instagram.com/ugamvenezuela/?hl=en" target="_blank"><img src=" https://res.cloudinary.com/arawato666/image/upload/v1659288281/UGAM/icons/instagramldpi_hcgb3g.png" alt="UGAM venezuela instagram"></a>
@@ -398,6 +409,9 @@
               </div>
             </div>
             <div class="col-6 offset-3 offset-md-4 offset-lg-0 col-md-4 col-lg-2"><img class="img-fluid" src="https://res.cloudinary.com/arawato666/image/upload/v1659890390/UGAM/UGAM_PNG_blanco_vhsn0z.png" alt="ugam logo"></div>
+            <div class="col-12 text-center mt-5 ugam-rights">
+              <small>© 2022 UGAM Venezuela. Todos los derechos reservados. </small>
+            </div>
         </div>
     </div>
   </footer>
@@ -405,7 +419,7 @@
   
   <!-- MODAL EMAIL -->
   <div class="modal fade" id="modalEmail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="staticBackdropLabel">Confirma tu mensaje</h5>
@@ -421,7 +435,7 @@
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           <button type="button" class="btn btn-primary" id="emailAlertButton"  onClick="setTimeout(function(){
             window.location.reload();
-         }, 1200);" >Enviar mensaje</button>
+         }, 1500);" >Enviar mensaje</button>
         </div>
       </div>
     </div>
