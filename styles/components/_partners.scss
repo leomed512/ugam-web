@@ -1,0 +1,14 @@
+.partners-section {
+    padding: 50px 0 0 0;
+    background-color: $light-grey;
+    color: #000;
+    .parters-icons img {
+        min-width: 200px;
+    }
+    .icon img {
+        max-width: 100px;
+        margin-top: 50px;
+        filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
+
+    }
+}

@@ -1,4 +1,4 @@
-const alertPlaceholder = document.getElementById('emailAlertmessage')
+const alertPlaceholder = document.getElementById('emailAlertmessage');
 
 const alert = (message, type) => {
   const wrapper = document.createElement('div')
