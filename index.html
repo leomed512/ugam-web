@@ -1,382 +1,442 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="UGAM Venezuela | Unión de Guías de Aventura y Montaña">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="robots" content="index, follow">
-    <title>UGAM Venezuela</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/media_queries/mobile.css" media="screen and (min-width:550px">
-    <link rel="stylesheet" href="./styles/media_queries/tablet.css" media="screen and (min-width:768px)">
-    <link rel="stylesheet" href="./styles/media_queries/desktop.css" media="screen and (min-width:1024px)">
-    <link rel="stylesheet" href="./styles/media_queries/desktop-l.css" media="screen and (min-width:1260px)">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="UGAM Venezuela | Unión de Guías de Aventura y Montaña">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="index, follow">
+  <title>UGAM Venezuela</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/media_queries/mobile.css" media="screen and (min-width:550px">
+  <link rel="stylesheet" href="./styles/media_queries/tablet.css" media="screen and (min-width:768px)">
+  <link rel="stylesheet" href="./styles/media_queries/desktop.css" media="screen and (min-width:1024px)">
+  <link rel="stylesheet" href="./styles/media_queries/desktop-l.css" media="screen and (min-width:1260px)">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://res.cloudinary.com/arawato666/image/upload/v1658965362/UGAM/main_logo__copia_-removebg-preview_ybse9b.png" type="image/x-icon" rel="shortcut icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <!-- Navbar -->
-    <header class="header" id="header-scroll">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-            <div class="container-fluid ms-4 me-4 mt-3 mb-3">
-            <a class="navbar-brand main-logo" href="index.html">
-                <img src="https://res.cloudinary.com/arawato666/image/upload/v1658958764/UGAM/secondary_logo_bepc65.png" alt="UGAM Logo" width="80" height="30">
-                <h1>Unión de Guías de Aventura y Montaña</h1>
-            </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse nav-list" id="navbarNav">
-                <ul class="navbar-nav ms-auto ">
-                  <li class="nav-item ms-4">
-                    <a class="nav-link" aria-current="page" href="./organization.html">Asociación</a>
-                  </li>
-                  <li class="nav-item ms-4">
-                    <a class="nav-link" href="#">Educación</a>
-                  </li>
-                  <li class="nav-item ms-4 ">
-                    <a class="nav-link" href="#expeditions">Expediciones</a>
-                  </li>
-                  <li class="nav-item ms-4">
-                    <a class="nav-link" href="#">Novedades</a>
-                  </li><li class="nav-item ms-4">
-                    <a class="nav-link active" href="#contactFormContainer">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <!-- / Navbar -->
-    <!-- section one -->
-    <section class="section-one p-0">
-        <img src="https://res.cloudinary.com/arawato666/image/upload/v1658958764/UGAM/main_logo_upjbsi.png" alt="UGAM Venezuela logo" class="animate__animated animate__pulse animate__infinite animate__slow">    
-        <h2 class="pt-4 text-center fs-1">
-            Por una montaña más segura!
-        </h2>
-    </section>
-    <!-- / section one -->
-    <div class="grey-div-down"></div>
-    <!-- section two -->
-    <section class="section-two container pt-5 pb-5 d-flex flex-column text-center align-items-center">
-        <img src="https://res.cloudinary.com/arawato666/image/upload/v1658978626/UGAM/grey-sec-logo_kk3gms.png" alt="UGAM Venezuela Logo">
-        <h3 class="mt-4 animate__animated animate__fadeInUp">
-            La <strong>Unión de Guías de Aventura y Montaña</strong> es la asociación más prestigiosa de profesionales de montaña de Venezuela.
-        </h3>
-    </section>
-    <!--/ section two -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link
+    href="https://res.cloudinary.com/arawato666/image/upload/v1658965362/UGAM/main_logo__copia_-removebg-preview_ybse9b.png"
+    type="image/x-icon" rel="shortcut icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Carter+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap"
+    rel="stylesheet">
+</head>
 
-    <!-- about us card section -->
-    <section class="aboutUsCards" id="aboutus">
-      <div class="grey-div-up"></div>
-      <div class="container pt-2 pb-3">
-        <div class="row">
-          <div class="col text-center">
-            <small>Conoce más sobre</small>
-            <h2>Nuestra organización</h2>
-          </div>
-        </div>
-        <div class="row mt-5 mb-5">
-          <a href="#" class="col-md-6 col-lg-4 mb-4">
-            <div class="card mb-4 p-3 pb-1 rounded-4 card-ugam">
-              <figure class="card-icon-container">
-                <img src="https://res.cloudinary.com/arawato666/image/upload/v1659288281/UGAM/icons/iniciosldpi_q7z34c.png" alt="icon" class="card-icon">
-              </figure>
-              <figure class="imageUs">
-                <img src="https://res.cloudinary.com/arawato666/image/upload/v1659464945/UGAM/rodeo_fscndn.png" class="card-img-top rounded" alt="UGAM Unión de Guías de Aventura y Montaña">      
-              </figure>
-                   
-              <div class="card-body">
-                <h5 class="text-center">
-                  Nuestros comienzos
-                </h5 class="text-center">
-                <p class="card-text">Desde 2016 hemos sido pioneros en procesos de formación para guías y porteadores especializados en ambientes de montaña basado en principios técnicos y profesionales internacionales de última generación.</p>
-              </div>
-              <div class="badges mb-2">
-                <span class="badge text-bg-secondary">Saber más</span>
-              </div>
-            </div>
-          </a>
-          
-          <a href="#" class="col-md-6 col-lg-4 mb-4">
-            <div class="card mb-4 p-3 pb-1 rounded-4 card-ugam ">
-              <figure class="card-icon-container">
-                <img src="https://res.cloudinary.com/arawato666/image/upload/v1659288280/UGAM/icons/novedadesldpi_syzo09.png" alt="icon" class="card-icon">
-              </figure>
-              <figure class="imageUs">
-                <img src="https://res.cloudinary.com/arawato666/image/upload/v1659287878/UGAM/xample3_dsfsbx.png" class="card-img-top rounded" alt="UGAM Unión de Guías de Aventura y Montaña">
-              </figure>
-              <div class="card-body">
-                <h5 class="text-center">
-                  Guías UGAM
-                </h5 class="text-center">
-                <p class="card-text">El personal técnico egresado de nuestra escuela cuentan con la mejor educación multidisciplinaria diferentes que se complementa con los diversos perfiles profesionales de cada uno de nuestros miembros.</p>
-              </div>
-              <div class="badges mb-2">
-                <span class="badge text-bg-secondary">Conoce a nuestros guías</span>
-              </div>
-            </div>
-          </a>
-
-          <a href="#" class="col-md-8 offset-md-2 offset-lg-0 col-lg-4 mb-4">
-            <div class="card mb-4 p-3 pb-1 rounded-4 card-ugam">
-              <figure class="card-icon-container">
-                <img src="https://res.cloudinary.com/arawato666/image/upload/v1659288281/UGAM/icons/manejo_de_cuerdasldpi_ej1vu4.png" alt="icon" class="card-icon">
-              </figure>
-              <figure class="imageUs">
-                 <img src="https://res.cloudinary.com/arawato666/image/upload/v1659287878/UGAM/xample2_ffgikw.png" class="card-img-top rounded" alt="UGAM Unión de Guías de Aventura y Montaña">             
-              </figure>
-             
-              <div class="card-body">
-                <h5 class="text-center">
-                  Novedades
-                </h5 class="text-center">
-                <p class="card-text">Te invitamos a conocer nuestras últimas actividades y las próximas excursiones y talleres de formación.</p>
-              </div>
-              <div class="badges mb-2">
-                <span class="badge text-bg-secondary">Ir a novedades</span>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-        <!--/ about us section -->
-
-        <!-- gallery one -->
-    <section>
-      <div class="container-fluid">
-        <div class="row ">
-          <div class="col-12 col-md-3 col-lg-4 d-flex align-items-center justify-content-center flex-column p-0">
-            <img src="https://res.cloudinary.com/arawato666/image/upload/v1658958764/UGAM/main_logo_upjbsi.png" class="img-fluid d-none d-md-block" alt="UGAM union de guías de aventura y montaña">
-            <img src="https://res.cloudinary.com/arawato666/image/upload/v1658958764/UGAM/main_logo_upjbsi.png" class="w-25 d-md-none" alt="UGAM union de guías de aventura y montaña">
-            <h4 class="pt-3 text-center">Vocación, pasión y compromiso por la <strong>montaña</strong></h4>
-          </div>
-          
-          <div class="col-12 col-md-9 col-lg-8 p-0 galleryOne">
-            <div class="overlay"></div>
-            <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="https://res.cloudinary.com/arawato666/image/upload/v1659319980/UGAM/fondo_c3fw6r.png" class="d-block w-100 img-fluid rounded-start" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="https://res.cloudinary.com/arawato666/image/upload/v1659320203/UGAM/humboldt_xgieaa.jpg" class="d-block w-100 img-fluid rounded-start" alt="..."> 
-                </div>
-                <div class="carousel-item">
-                  <img src="https://res.cloudinary.com/arawato666/image/upload/v1659322046/UGAM/bolivar_wxg62g.jpg" class="d-block w-100 img-fluid rounded-start" alt="...">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="grey-div-down"></div>
-    </section>
-        <!--/ gallery one -->
-
-        <!-- gallery two -->
-    <section class="container-fluid p-0 galleryTwo ">
-      <div class="grey-div-up"></div>
-      <article class="row dome rounded-end">
-        <div class="col d-none d-md-block">
-          <img class="w-50" src="https://res.cloudinary.com/arawato666/image/upload/v1658965364/UGAM/main_logo_favicon_bl758f.png" alt="">
-        </div>
-        <img src="https://res.cloudinary.com/arawato666/image/upload/v1658965364/UGAM/main_logo_favicon_bl758f.png" class="w-25 d-md-none" alt="UGAM union de guías de aventura y montaña">
-        <div class="col-12 d-none d-md-block text-center pt-2 " ><h5>Nuestra meta es ofrecerte la mejor experiencia de calidad y servicio</h5>
-        </div>
-      </article>      
-      <div id="carouselExampleIndicators" class="carousel galleryTwo-carousel slide carousel-fade" data-bs-ride="carousel">  
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://res.cloudinary.com/arawato666/image/upload/v1659452545/UGAM/timoncitos_dxcr1v.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://res.cloudinary.com/arawato666/image/upload/v1659409729/UGAM/car3_plmnbb.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://res.cloudinary.com/arawato666/image/upload/v1659410594/UGAM/29472975_1036735853140599_8737580794841321755_n_ku9nbo.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://res.cloudinary.com/arawato666/image/upload/v1659409913/UGAM/IMG-20210211-WA0042_ipn2f2.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+<body>
+  <!-- Navbar -->
+  <header class="header" id="header-scroll">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <div class="container-fluid ms-4 me-4 mt-3 mb-3">
+        <a class="navbar-brand main-logo" href="index.html">
+          <img src="https://res.cloudinary.com/arawato666/image/upload/v1658958764/UGAM/secondary_logo_bepc65.png"
+            alt="UGAM Logo" width="80" height="30">
+          <h1>Unión de Guías de Aventura y Montaña</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>      
-    </section>
-         <!--/ gallery two -->
-
-         <!-- expeditions -->
-    <div class="container mt-3 mb-3" id="expeditions">
-      <div class="text-center mb-4">
-        <h2>Expediciones</h2>
-        <small>Conoce todo lo que las montañas de Venezuela tienen para ti y los tuyos!</small>
-      </div>
-      
-      <div class="row  my-auto justify-content-center">
-        <div id="recipeCarousel" class="carousel carousel-dark slide expedition_carousel" data-bs-ride="carousel">
-            <div class="carousel-inner expedition-inner" role="listbox">
-                <div class="carousel-item expedition-item active">
-
-                  <div class="col-md-6 col-lg-4 mb-3 me-md-2 ">
-                    <div class="card card-expedition rounded rounded-4">
-                      <img class="img-fluid" alt="100%x280" src="https://res.cloudinary.com/arawato666/image/upload/v1659287878/UGAM/xample2_ffgikw.png">
-                      <div class="card-body">
-                        <h5 class="text-center">
-                          Valle de Los Codazzi
-                        </h5>
-                        <ul class="card-text ">
-                          <li>Altitud: 4200 msnm</li>
-                          <li>Dificultad: intermedia</li>
-                          <li>Tipo de actividad: excursión de varios días con escalada en roca deportiva y clásica</li>
-                        </ul>
-                        <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                          Saber más
-                        </a>
-                      </div>
-                      
-                    </div>
-                  </div>
-  
-                </div>
-                <div class="carousel-item expedition-item">
-                  <div class="col-md-6 col-lg-4 mb-3 me-md-2">
-                    <div class="card card-expedition rounded rounded-4">
-                      <img class="img-fluid" alt="100%x280" src="https://res.cloudinary.com/arawato666/image/upload/v1659322046/UGAM/bolivar_wxg62g.jpg">
-                      <div class="card-body">
-                        <h5 class="text-center">
-                          Pico Bolívar
-                        </h5>
-                        <ul class="card-text ">
-                          <li>Altitud: 4984 msnm</li>
-                          <li>Dificultad: alta</li>
-                          <li>Tipo de actividad: excursión de varios días con escalada en roca y nieve (temporada invernal).</li>
-                        </ul>
-                        <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                          Saber más
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-  
-                </div>
-                <div class="carousel-item expedition-item">
-                  <div class="col-md-6 col-lg-4 mb-3 me-md-2">
-                    <div class="card card-expedition rounded rounded-4">
-                      <img class="img-fluid" alt="100%x280" src="https://res.cloudinary.com/arawato666/image/upload/v1659452545/UGAM/timoncitos_dxcr1v.png">
-                      <div class="card-body">
-                        <h5 class="text-center">
-                          Laguna Timoncitos
-                        </h5>
-                        <ul class="card-text ">
-                          <li>Altitud: 4600 msnm</li>
-                          <li>Dificultad: intermedia-alta</li>
-                          <li>Tipo de actividad: recorrido por la laguna más alta de Venezuela con excursión de varios días</li>
-                        </ul>
-                        <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                          Saber más
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-  
-                </div>
-                <div class="carousel-item expedition-item">
-                  <div class="col-md-6 col-lg-4 mb-3 me-md-2">
-                    <div class="card card-expedition rounded rounded-4">
-                      <img class="img-fluid" alt="100%x280" src="https://res.cloudinary.com/arawato666/image/upload/v1659319980/UGAM/fondo_c3fw6r.png">
-                      <div class="card-body">
-                        <h5 class="text-center">
-                          Pico La Concha
-                        </h5>
-                        <ul class="card-text ">
-                          <li>Altitud: 4922 msnm</li>
-                          <li>Dificultad: alta inferior</li>
-                          <li>Tipo de actividad: tercer pico más alto del país, excursión de varios días con escalada en roca y nieve</li>
-                        </ul>
-                        <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                          Saber más
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-  
-                </div>
-                <div class="carousel-item expedition-item">
-                  <div class="col-md-6 col-lg-4 mb-3 me-md-2">
-                    <div class="card card-expedition rounded rounded-4">
-                      <img class="img-fluid" alt="100%x280" src="https://res.cloudinary.com/arawato666/image/upload/v1659409729/UGAM/car3_plmnbb.jpg">
-                      <div class="card-body">
-                        <h5 class="text-center">
-                          Picacho El Carmen
-                        </h5>
-                        <ul class="card-text ">
-                          <li>Altitud: 4800 msnm</li>
-                          <li>Dificultad: Intermedia-alta</li>
-                          <li>Tipo de actividad: excursión enfocada en escalada clásica por cumbres míticas por mucho tiempo sin ser exploradas</li>
-                        </ul>
-                        <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                          Saber más
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-  
-                </div>
-                <div class="carousel-item expedition-item">
-                  <div class="col-md-6 col-lg-4 mb-3 me-md-2">
-                    <div class="card card-expedition rounded rounded-4">
-                      <img class="img-fluid" alt="100%x280" src="https://res.cloudinary.com/arawato666/image/upload/v1659320203/UGAM/humboldt_xgieaa.jpg">
-                      <div class="card-body">
-                        <h5 class="text-center">
-                          Pico Humboldt
-                        </h5>
-                        <ul class="card-text ">
-                          <li>Altitud: 4920msnm</li>
-                          <li>Dificultad: alta-inferior</li>
-                          <li>Tipo de actividad: viaje al segundo pico más alto del país y el último glaciar</li>
-                        </ul>
-                        <a href="#" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                          Saber más
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-  
-                </div>
-            </div>
-            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
+        <div class="collapse navbar-collapse nav-list" id="navbarNav">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item ms-4">
+              <a class="nav-link" aria-current="page" href="./organization.html">Asociación</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="#">Educación</a>
+            </li>
+            <li class="nav-item ms-4 ">
+              <a class="nav-link" href="expeditions.html">Expediciones</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="#novedades">Novedades</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link active" href="#contactFormContainer">Contacto</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </header>
+  <!-- / Navbar -->
+  <!-- section one -->
+  <section class="section-one p-0">
+    <img src="https://res.cloudinary.com/arawato666/image/upload/v1658958764/UGAM/main_logo_upjbsi.png"
+      alt="UGAM Venezuela logo" class="animate__animated animate__pulse animate__infinite animate__slow">
+    <h2 class="pt-4 text-center fs-1">
+      Por una montaña más segura!
+    </h2>
+  </section>
+  <!-- / section one -->
+  <div class="grey-div-down"></div>
+  <!-- section two -->
+  <section class="section-two container pt-5 pb-5 d-flex flex-column text-center align-items-center">
+    <img src="https://res.cloudinary.com/arawato666/image/upload/v1658978626/UGAM/grey-sec-logo_kk3gms.png"
+      alt="UGAM Venezuela Logo">
+    <h3 class="mt-4 animate__animated animate__fadeInUp">
+      La <strong>Unión de Guías de Aventura y Montaña</strong> es la asociación más prestigiosa de profesionales de
+      montaña de Venezuela.
+    </h3>
+  </section>
+  <!--/ section two -->
+
+  <!-- about us card section -->
+  <section class="aboutUsCards" id="aboutus">
+    <div class="grey-div-up"></div>
+    <div class="container pt-2 pb-3">
+      <div class="row">
+        <div class="col text-center">
+          <small>Conoce más sobre</small>
+          <h2>Nuestra organización</h2>
+        </div>
+      </div>
+      <div class="row mt-5 mb-5">
+        <a href="organization.html" class="col-md-6 col-lg-4 mb-4">
+          <div class="card mb-4 p-3 pb-1 rounded-4 card-ugam">
+            <figure class="card-icon-container">
+              <img
+                src="https://res.cloudinary.com/arawato666/image/upload/v1659288281/UGAM/icons/iniciosldpi_q7z34c.png"
+                alt="icon" class="card-icon">
+            </figure>
+            <figure class="imageUs">
+              <img src="https://res.cloudinary.com/arawato666/image/upload/v1659464945/UGAM/rodeo_fscndn.png"
+                class="card-img-top rounded" alt="UGAM Unión de Guías de Aventura y Montaña">
+            </figure>
+
+            <div class="card-body">
+              <h5 class="text-center">
+                Nuestros comienzos
+              </h5 class="text-center">
+              <p class="card-text">Desde 2016 hemos sido pioneros en procesos de formación para guías y porteadores
+                especializados en ambientes de montaña basado en principios técnicos y profesionales internacionales de
+                última generación.</p>
+            </div>
+            <div class="badges mb-2">
+              <span class="badge text-bg-secondary">Saber más</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="organization.html#list-settings" class="col-md-6 col-lg-4 mb-4">
+          <div class="card mb-4 p-3 pb-1 rounded-4 card-ugam ">
+            <figure class="card-icon-container">
+              <img
+                src="https://res.cloudinary.com/arawato666/image/upload/v1659288280/UGAM/icons/novedadesldpi_syzo09.png"
+                alt="icon" class="card-icon">
+            </figure>
+            <figure class="imageUs">
+              <img src="https://res.cloudinary.com/arawato666/image/upload/v1659287878/UGAM/xample3_dsfsbx.png"
+                class="card-img-top rounded" alt="UGAM Unión de Guías de Aventura y Montaña">
+            </figure>
+            <div class="card-body">
+              <h5 class="text-center">
+                Guías UGAM
+              </h5 class="text-center">
+              <p class="card-text">El personal técnico egresado de nuestra escuela cuentan con la mejor educación
+                multidisciplinaria diferentes que se complementa con los diversos perfiles profesionales de cada uno de
+                nuestros miembros.</p>
+            </div>
+            <div class="badges mb-2">
+              <span class="badge text-bg-secondary">Conoce a nuestros guías</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="col-md-8 offset-md-2 offset-lg-0 col-lg-4 mb-4" id="novedades">
+          <div class="card mb-4 p-3 pb-1 rounded-4 card-ugam">
+            <figure class="card-icon-container">
+              <img
+                src="https://res.cloudinary.com/arawato666/image/upload/v1659288281/UGAM/icons/manejo_de_cuerdasldpi_ej1vu4.png"
+                alt="icon" class="card-icon">
+            </figure>
+            <figure class="imageUs">
+              <img src="https://res.cloudinary.com/arawato666/image/upload/v1659287878/UGAM/xample2_ffgikw.png"
+                class="card-img-top rounded" alt="UGAM Unión de Guías de Aventura y Montaña">
+            </figure>
+
+            <div class="card-body">
+              <h5 class="text-center">
+                Novedades
+              </h5 class="text-center">
+              <p class="card-text">Te invitamos a conocer nuestras últimas actividades y las próximas excursiones y
+                talleres de formación.</p>
+            </div>
+            <div class="badges mb-2">
+              <span class="badge text-bg-secondary">Ir a novedades</span>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
-    <h5 class="mt-2 fw-light text-center">Trekking - Andinismo - Escalada - Birdwatching - Pueblos Ancestrales - Hiking - Mountain Bike</h5>
-    <h5 class="text-center">Todo en un mismo equipo</h5>
-</div>
-         <!-- / expeditions -->
+  </section>
+  <!--/ about us section -->
 
-        <!-- contact form -->
+  <!-- gallery one -->
+  <section>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-12 col-md-3 col-lg-4 d-flex align-items-center justify-content-center flex-column p-0">
+          <img src="https://res.cloudinary.com/arawato666/image/upload/v1658958764/UGAM/main_logo_upjbsi.png"
+            class="img-fluid d-none d-md-block" alt="UGAM union de guías de aventura y montaña">
+          <img src="https://res.cloudinary.com/arawato666/image/upload/v1658958764/UGAM/main_logo_upjbsi.png"
+            class="w-25 d-md-none" alt="UGAM union de guías de aventura y montaña">
+          <h4 class="pt-3 text-center">Vocación, pasión y compromiso por la <strong>montaña</strong></h4>
+        </div>
+
+        <div class="col-12 col-md-9 col-lg-8 p-0 galleryOne">
+          <div class="overlay"></div>
+          <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://res.cloudinary.com/arawato666/image/upload/v1659319980/UGAM/fondo_c3fw6r.png"
+                  class="d-block w-100 img-fluid rounded-start" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://res.cloudinary.com/arawato666/image/upload/v1659320203/UGAM/humboldt_xgieaa.jpg"
+                  class="d-block w-100 img-fluid rounded-start" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://res.cloudinary.com/arawato666/image/upload/v1659322046/UGAM/bolivar_wxg62g.jpg"
+                  class="d-block w-100 img-fluid rounded-start" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grey-div-down"></div>
+  </section>
+  <!--/ gallery one -->
+
+  <!-- gallery two -->
+  <section class="container-fluid p-0 galleryTwo ">
+    <div class="grey-div-up"></div>
+    <article class="row dome rounded-end">
+      <div class="col d-none d-md-block">
+        <img class="w-50"
+          src="https://res.cloudinary.com/arawato666/image/upload/v1658965364/UGAM/main_logo_favicon_bl758f.png" alt="">
+      </div>
+      <img src="https://res.cloudinary.com/arawato666/image/upload/v1658965364/UGAM/main_logo_favicon_bl758f.png"
+        class="w-25 d-md-none" alt="UGAM union de guías de aventura y montaña">
+      <div class="col-12 d-none d-md-block text-center pt-2 ">
+        <h5>Nuestra meta es ofrecerte la mejor experiencia de calidad y servicio</h5>
+      </div>
+    </article>
+    <div id="carouselExampleIndicators" class="carousel galleryTwo-carousel slide carousel-fade"
+      data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://res.cloudinary.com/arawato666/image/upload/v1659452545/UGAM/timoncitos_dxcr1v.png"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://res.cloudinary.com/arawato666/image/upload/v1659409729/UGAM/car3_plmnbb.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://res.cloudinary.com/arawato666/image/upload/v1659410594/UGAM/29472975_1036735853140599_8737580794841321755_n_ku9nbo.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://res.cloudinary.com/arawato666/image/upload/v1659409913/UGAM/IMG-20210211-WA0042_ipn2f2.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--/ gallery two -->
+
+  <!-- expeditions -->
+  <div class="container mt-3 mb-3" id="expeditions">
+    <div class="text-center mb-4">
+      <h2>Expediciones</h2>
+      <small>Conoce todo lo que las montañas de Venezuela tienen para ti y los tuyos!</small>
+    </div>
+
+    <div class="row  my-auto justify-content-center">
+      <div id="recipeCarousel" class="carousel carousel-dark slide expedition_carousel" data-bs-ride="carousel">
+        <div class="carousel-inner expedition-inner" role="listbox">
+          <div class="carousel-item expedition-item active">
+
+            <div class="col-md-6 col-lg-4 mb-3 me-md-2 ">
+              <div class="card card-expedition rounded rounded-4">
+                <img class="img-fluid" alt="100%x280"
+                  src="https://res.cloudinary.com/arawato666/image/upload/v1659287878/UGAM/xample2_ffgikw.png">
+                <div class="card-body">
+                  <h5 class="text-center">
+                    Valle de Los Codazzi
+                  </h5>
+                  <ul class="card-text ">
+                    <li>Altitud: 4200 msnm</li>
+                    <li>Dificultad: intermedia</li>
+                    <li>Tipo de actividad: excursión de varios días con escalada en roca deportiva y clásica</li>
+                  </ul>
+                  <a href="#" class="btn btn-warning"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Saber más
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item expedition-item">
+            <div class="col-md-6 col-lg-4 mb-3 me-md-2">
+              <div class="card card-expedition rounded rounded-4">
+                <img class="img-fluid" alt="100%x280"
+                  src="https://res.cloudinary.com/arawato666/image/upload/v1659322046/UGAM/bolivar_wxg62g.jpg">
+                <div class="card-body">
+                  <h5 class="text-center">
+                    Pico Bolívar
+                  </h5>
+                  <ul class="card-text ">
+                    <li>Altitud: 4984 msnm</li>
+                    <li>Dificultad: alta</li>
+                    <li>Tipo de actividad: excursión de varios días con escalada en roca y nieve (temporada invernal).
+                    </li>
+                  </ul>
+                  <a href="#" class="btn btn-warning"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Saber más
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item expedition-item">
+            <div class="col-md-6 col-lg-4 mb-3 me-md-2">
+              <div class="card card-expedition rounded rounded-4">
+                <img class="img-fluid" alt="100%x280"
+                  src="https://res.cloudinary.com/arawato666/image/upload/v1659452545/UGAM/timoncitos_dxcr1v.png">
+                <div class="card-body">
+                  <h5 class="text-center">
+                    Laguna Timoncitos
+                  </h5>
+                  <ul class="card-text ">
+                    <li>Altitud: 4600 msnm</li>
+                    <li>Dificultad: intermedia-alta</li>
+                    <li>Tipo de actividad: recorrido por la laguna más alta de Venezuela con excursión de varios días
+                    </li>
+                  </ul>
+                  <a href="#" class="btn btn-warning"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Saber más
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item expedition-item">
+            <div class="col-md-6 col-lg-4 mb-3 me-md-2">
+              <div class="card card-expedition rounded rounded-4">
+                <img class="img-fluid" alt="100%x280"
+                  src="https://res.cloudinary.com/arawato666/image/upload/v1659319980/UGAM/fondo_c3fw6r.png">
+                <div class="card-body">
+                  <h5 class="text-center">
+                    Pico La Concha
+                  </h5>
+                  <ul class="card-text ">
+                    <li>Altitud: 4922 msnm</li>
+                    <li>Dificultad: alta inferior</li>
+                    <li>Tipo de actividad: tercer pico más alto del país, excursión de varios días con escalada en roca
+                      y nieve</li>
+                  </ul>
+                  <a href="#" class="btn btn-warning"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Saber más
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item expedition-item">
+            <div class="col-md-6 col-lg-4 mb-3 me-md-2">
+              <div class="card card-expedition rounded rounded-4">
+                <img class="img-fluid" alt="100%x280"
+                  src="https://res.cloudinary.com/arawato666/image/upload/v1659409729/UGAM/car3_plmnbb.jpg">
+                <div class="card-body">
+                  <h5 class="text-center">
+                    Picacho El Carmen
+                  </h5>
+                  <ul class="card-text ">
+                    <li>Altitud: 4800 msnm</li>
+                    <li>Dificultad: Intermedia-alta</li>
+                    <li>Tipo de actividad: excursión enfocada en escalada clásica por cumbres míticas por mucho tiempo
+                      sin ser exploradas</li>
+                  </ul>
+                  <a href="#" class="btn btn-warning"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Saber más
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item expedition-item">
+            <div class="col-md-6 col-lg-4 mb-3 me-md-2">
+              <div class="card card-expedition rounded rounded-4">
+                <img class="img-fluid" alt="100%x280"
+                  src="https://res.cloudinary.com/arawato666/image/upload/v1659320203/UGAM/humboldt_xgieaa.jpg">
+                <div class="card-body">
+                  <h5 class="text-center">
+                    Pico Humboldt
+                  </h5>
+                  <ul class="card-text ">
+                    <li>Altitud: 4920msnm</li>
+                    <li>Dificultad: alta-inferior</li>
+                    <li>Tipo de actividad: viaje al segundo pico más alto del país y el último glaciar</li>
+                  </ul>
+                  <a href="#" class="btn btn-warning"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Saber más
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+    <h5 class="mt-2 fw-light text-center">Trekking - Andinismo - Escalada - Birdwatching - Pueblos Ancestrales - Hiking
+      - Mountain Bike</h5>
+    <h5 class="text-center">Todo en un mismo equipo</h5>
+  </div>
+  <!-- / expeditions -->
+
+  <!-- contact form -->
   <section class="contactForm" id="contactFormContainer">
     <div class="container-fluid pb-5">
       <article class="pt-5 d-flex flex-column align-items-center heading">
         <h2 class="fw-bold" id="contactAnimation">Contáctanos</h2>
-        <h5 class="fw-light my-3 w-75 text-center fs-5">Escribenos para información sobre excursiones, asesoramiento técnico, eventos, cursos formativos, contactar a nuestro equipo de trabajo </h5>
+        <h5 class="fw-light my-3 w-75 text-center fs-5">Escribenos para información sobre excursiones, asesoramiento
+          técnico, eventos, cursos formativos, contactar a nuestro equipo de trabajo </h5>
       </article>
       <article class="container">
         <form>
@@ -385,46 +445,64 @@
               <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
             </div>
             <div class="form-label col-12 col-md-6">
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Correo electrónico" required>
             </div>
           </div>
           <div class="mb-3 form-label">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje" required></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"
+              required></textarea>
             <small class="form-text text-muted">Recuerda dejar tu información de contacto</small>
           </div>
-         
-          <button type="button" class="btn btn-warning col-6 col-lg-4 d-grid mx-auto"  data-bs-toggle="modal" data-bs-target="#modalEmail">Enviar</button>
+
+          <button type="button" class="btn btn-warning col-6 col-lg-4 d-grid mx-auto" data-bs-toggle="modal"
+            data-bs-target="#modalEmail">Enviar</button>
 
         </form>
       </article>
     </div>
   </section>
-        <!--/ contact form -->
-    <!-- companies ticker -->
+  <!--/ contact form -->
+  <!-- companies ticker -->
   <section class="container-fluid py-5 row ticker-container">
     <div class="col-12 py-5 text-center">
       <h3>
         Conoce los emprendimientos que conforman
       </h3>
-      <img src="https://res.cloudinary.com/arawato666/image/upload/v1658965364/UGAM/main_logo_favicon_bl758f.png" class="img-fluid w-50 pt-3" alt="">
+      <img src="https://res.cloudinary.com/arawato666/image/upload/v1658965364/UGAM/main_logo_favicon_bl758f.png"
+        class="img-fluid w-50 pt-3" alt="">
     </div>
     <article class="ticker">
       <div class="ticker__list col">
-        <div class="ticker__item"><a href="https://www.instagram.com/arawato.adventures/?hl=en" target="_blank"><img src="https://res.cloudinary.com/arawato666/image/upload/v1660232713/UGAM/logos/arawato1_ompvno.png" alt="arawato adventures logo"></a></div>
-        <div class="ticker__item"><a href="#" target="_blank"><img src="https://res.cloudinary.com/arawato666/image/upload/v1660232813/UGAM/logos/zawrat_t2c8in.png" alt=" zawrat logo"></a></div>
-        <div class="ticker__item"><a href="https://www.instagram.com/meridatrekking/?hl=en" target="_blank"><img src="https://res.cloudinary.com/arawato666/image/upload/v1660232813/UGAM/logos/meridatrekking_uegroe.png" alt=" meridatrekking logo"></a></div>
-        <div class="ticker__item"><a href="#" target="_blank"><img src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png" alt=""></a></div>
-        <div class="ticker__item"><a href="#" target="_blank"><img src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png" alt=""></a></div>
-        <div class="ticker__item"><a href="#" target="_blank"><img src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png" alt=""></a></div>
-        <div class="ticker__item"><a href="#" target="_blank"><img src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png" alt=""></a></div>
+        <div class="ticker__item"><a href="https://www.instagram.com/arawato.adventures/?hl=en" target="_blank"><img
+              src="https://res.cloudinary.com/arawato666/image/upload/v1660232713/UGAM/logos/arawato1_ompvno.png"
+              alt="arawato adventures logo"></a></div>
+        <div class="ticker__item"><a href="https://www.instagram.com/meridatrekking/?hl=en" target="_blank"><img
+              src="https://res.cloudinary.com/arawato666/image/upload/v1660232813/UGAM/logos/meridatrekking_uegroe.png"
+              alt=" meridatrekking logo"></a></div>
+        <div class="ticker__item"><a href="#" target="_blank"><img
+              src="https://res.cloudinary.com/arawato666/image/upload/v1674227982/UGAM/uro-removebg-preview_rabo1f.png"
+              alt="URO"></a></div>
+        <div class="ticker__item"><a href="#" target="_blank"><img
+              src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png"
+              alt="Sinaí"></a></div>
+        <div class="ticker__item"><a href="#" target="_blank"><img
+              src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png"
+              alt="Mango Tours"></a></div>
+        <div class="ticker__item"><a href="#" target="_blank"><img
+              src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png"
+              alt="Icaque"></a></div>
+        <div class="ticker__item"><a href="#" target="_blank"><img
+              src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png"
+              alt="Andinismo"></a></div>
       </div>
     </article>
-  
-  </section>
-    <!-- / companies ticker -->
 
-    <!-- partners section -->
-    <!-- <section class="container-fluid partners-section">
+  </section>
+  <!-- / companies ticker -->
+
+  <!-- partners section -->
+  <!-- <section class="container-fluid partners-section">
       <div class="row">
         
         <div class="col-md-10 offset-md-1 col-12 pt-1 pt-sm-0 text-center">
@@ -448,72 +526,94 @@
         </div>
       </div>
     </section> -->
-     <!-- partners section -->
+  <!-- partners section -->
   <!-- footer -->
   <footer class="footer pt-3">
     <div class="container">
-        <div class="row text-center pb-4 pt-4 px-3">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
-              <h4 class="text-decoration-underline text-start">La Asociación</h4>
-              <ul>
-                <li><a href="#">Quiénes somos</a></li>
-                <li><a href="#">Historia de UGAM</a></li>
-                <li><a href="#">Actividades</a></li>
-                <li><a href="#">Equipo de Guías</a></li>
-              </ul> 
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 contact-icons">
-              <h4 class="text-decoration-underline text-start" >Contáctanos</h4>
-              <ul>
-                <li><a href="#contactFormContainer" id="animateButton">
-                  <div>
-                    <img src="https://res.cloudinary.com/arawato666/image/upload/v1659895822/UGAM/icons/email_1_x8t3xq.png" alt="">
-                    ugamvenezuela@gmail.com
-                  </div> </a>
-                </li>
-                <li><a href="https://wa.me/584121221386/?text=Hola!%20Gracias%20por%20contactar%20al%20equipo%20UGAM.%20¿En%20qué%20podemos%20ayudarte?" target="_blank">
-                  <div>
-                    <img src="https://res.cloudinary.com/arawato666/image/upload/v1659895822/UGAM/icons/whatsapp_1_hcbaa5.png" alt="">
-                    +58 412 122 13 86
-                  </div>
-                  </a>
-                </li>
-                <li>
-                  <div>
-                    <img src="https://res.cloudinary.com/arawato666/image/upload/v1660164793/UGAM/icons/telephone_1_vnfbmw.png" alt="">
-                    +58 274 244 33 15
-                  </div>
-                </li>
-                <li><a href="https://www.google.com/maps/place/Unidad+De+Respuesta+Operativa/@8.6199052,-71.1385016,17z/data=!3m1!4b1!4m5!3m4!1s0x8e6486d32b7feff3:0xc99f178519bb163c!8m2!3d8.6199052!4d-71.1363076" target="_blank">
-                  <div>
-                    <img src="https://res.cloudinary.com/arawato666/image/upload/v1659895822/UGAM/icons/maps-and-flags_1_wcquru.png" alt="">
-                    Calle principal, El Amparo. Mérida, Venezuela
-                  </div>
-                  </a></li>
-              </ul> 
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3 rrss pb-5 pt-3">
-              <h4 class="text-decoration-underline">Nuestra Comunidad</h4>
-              <div class="d-flex justify-content-evenly pt-4">
-                <a href="https://www.instagram.com/ugamvenezuela/?hl=en" target="_blank"><img src=" https://res.cloudinary.com/arawato666/image/upload/v1659288281/UGAM/icons/instagramldpi_hcgb3g.png" alt="UGAM venezuela instagram"></a>
-                <a href="https://www.facebook.com/ugammeridavenezuela/?ref=page_internal" target="_blank"><img src="https://res.cloudinary.com/arawato666/image/upload/v1659288281/UGAM/icons/facebookldpi_obsub7.png" alt="UGAM venezuela facebook"></a>
-                <a href="#"><img src="https://res.cloudinary.com/arawato666/image/upload/v1659288280/UGAM/icons/youtubeldpi_t1nfrk.png" alt="UGAM venezuela youtube"></a>
-              </div>
-            </div>
-            <div class="col-6 offset-3 offset-md-4 offset-lg-0 col-md-4 col-lg-2"><img class="img-fluid" src="https://res.cloudinary.com/arawato666/image/upload/v1659890390/UGAM/UGAM_PNG_blanco_vhsn0z.png" alt="ugam logo">
-            </div>
-            <div class="col-12 text-center mt-5 ugam-rights">
-              <small>© 2022 UGAM Venezuela. Todos los derechos reservados. </small>
-            </div>
+      <div class="row text-center pb-4 pt-4 px-3">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+          <h4 class="text-decoration-underline text-start">La Asociación</h4>
+          <ul>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Historia de UGAM</a></li>
+            <li><a href="#">Actividades</a></li>
+            <li><a href="#">Equipo de Guías</a></li>
+          </ul>
         </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 contact-icons">
+          <h4 class="text-decoration-underline text-start">Contáctanos</h4>
+          <ul>
+            <li><a href="#contactFormContainer" id="animateButton">
+                <div>
+                  <img
+                    src="https://res.cloudinary.com/arawato666/image/upload/v1659895822/UGAM/icons/email_1_x8t3xq.png"
+                    alt="">
+                  ugamvenezuela@gmail.com
+                </div>
+              </a>
+            </li>
+            <li><a
+                href="https://wa.me/584121221386/?text=Hola!%20Gracias%20por%20contactar%20al%20equipo%20UGAM.%20¿En%20qué%20podemos%20ayudarte?"
+                target="_blank">
+                <div>
+                  <img
+                    src="https://res.cloudinary.com/arawato666/image/upload/v1659895822/UGAM/icons/whatsapp_1_hcbaa5.png"
+                    alt="">
+                  +58 412 122 13 86
+                </div>
+              </a>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/arawato666/image/upload/v1660164793/UGAM/icons/telephone_1_vnfbmw.png"
+                  alt="">
+                +58 274 244 33 15
+              </div>
+            </li>
+            <li><a
+                href="https://www.google.com/maps/place/Unidad+De+Respuesta+Operativa/@8.6199052,-71.1385016,17z/data=!3m1!4b1!4m5!3m4!1s0x8e6486d32b7feff3:0xc99f178519bb163c!8m2!3d8.6199052!4d-71.1363076"
+                target="_blank">
+                <div>
+                  <img
+                    src="https://res.cloudinary.com/arawato666/image/upload/v1659895822/UGAM/icons/maps-and-flags_1_wcquru.png"
+                    alt="">
+                  Calle principal, El Amparo. Mérida, Venezuela
+                </div>
+              </a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 rrss pb-5 pt-3">
+          <h4 class="text-decoration-underline">Nuestra Comunidad</h4>
+          <div class="d-flex justify-content-evenly pt-4">
+            <a href="https://www.instagram.com/ugamvenezuela/?hl=en" target="_blank"><img
+                src=" https://res.cloudinary.com/arawato666/image/upload/v1659288281/UGAM/icons/instagramldpi_hcgb3g.png"
+                alt="UGAM venezuela instagram"></a>
+            <a href="https://www.facebook.com/ugammeridavenezuela/?ref=page_internal" target="_blank"><img
+                src="https://res.cloudinary.com/arawato666/image/upload/v1659288281/UGAM/icons/facebookldpi_obsub7.png"
+                alt="UGAM venezuela facebook"></a>
+            <a href="#"><img
+                src="https://res.cloudinary.com/arawato666/image/upload/v1659288280/UGAM/icons/youtubeldpi_t1nfrk.png"
+                alt="UGAM venezuela youtube"></a>
+          </div>
+        </div>
+        <div class="col-6 offset-3 offset-md-4 offset-lg-0 col-md-4 col-lg-2"><img class="img-fluid"
+            src="https://res.cloudinary.com/arawato666/image/upload/v1659890390/UGAM/UGAM_PNG_blanco_vhsn0z.png"
+            alt="ugam logo">
+        </div>
+        <div class="col-12 text-center mt-5 ugam-rights">
+          <small>© 2023 UGAM Venezuela. Todos los derechos reservados. </small>
+        </div>
+      </div>
     </div>
   </footer>
-<!-- /footer -->
-  
+  <!-- /footer -->
+
   <!-- MODAL EMAIL -->
-  <div class="modal fade" id="modalEmail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="modalEmail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -522,29 +622,33 @@
         </div>
         <div class="modal-body">
           <div class="mb-3">
-            <small class="form-label fs-6">Gracias por escribirnos! <strong>Estás a punto enviar tu mensaje. </strong>Revisa que contenga tu información de contacto.</small>
+            <small class="form-label fs-6">Gracias por escribirnos! <strong>Estás a punto enviar tu mensaje.
+              </strong>Revisa que contenga tu información de contacto.</small>
           </div>
           <div id="emailAlertmessage"></div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary" id="emailAlertButton"  onClick="setTimeout(function(){
+          <button type="button" class="btn btn-primary" id="emailAlertButton" onClick="setTimeout(function(){
             window.location.reload();
-         }, 1000);" >Enviar mensaje</button>
+         }, 1000);">Enviar mensaje</button>
         </div>
       </div>
     </div>
   </div>
-  
-<!-- /MODAL EMAIL -->
+
+  <!-- /MODAL EMAIL -->
 
 
-<!-- Button trigger modal -->
+  <!-- Button trigger modal -->
 
-</body> 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+  integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+  integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 <script src="./scripts/slider.js"></script>
 <script src="./scripts/emailAlert.js"></script>
 <script src="./scripts/ticker.js"></script>
+
 </html>
