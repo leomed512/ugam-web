@@ -1,37 +1,40 @@
 @media (min-width: 1024px) {
-/////////////
+
+    /////////////
     .main-logo {
         h1 {
             display: block;
             font-size: 0.9rem;
         }
     }
-/////////////////
+
+    /////////////////
     .section-one {
         height: 900px;
     }
 
-////////////////
+    ////////////////
     .section-two {
-        h3{ 
+        h3 {
             font-size: 1.6rem;
         }
     }
-///////////////////// 
-.card-ugam {
-    min-height: 715px;
-    h5 {
-        font-size: 1.7rem;
+
+    ///////////////////// 
+    .card-ugam {
+        min-height: 580px;
+
     }
-}
-//////////// 
-.galleryOne img {
-    max-height: 460px;
-}
-///////////////////// 
-.galleryTwo {
-    .galleryTwo-carousel {
-        max-height: 550px;
-      }
-}
+
+    //////////// 
+    .galleryOne img {
+        max-height: 460px;
+    }
+
+    ///////////////////// 
+    .galleryTwo {
+        .galleryTwo-carousel {
+            max-height: 550px;
+        }
+    }
 }

@@ -1,29 +1,31 @@
 @media (min-width:550px) {
-///////////////////////
+
+    ///////////////////////
     .section-one {
         height: 700px;
     }
-////////////////////////
+
+    ////////////////////////
     .section-two {
-        h3{ 
+        h3 {
             font-size: 1.2rem;
         }
     }
 
-////// 
-.galleryOne img {
-    max-height: 370px;
-}  
+    ////// 
+    .galleryOne img {
+        max-height: 370px;
+    }
 
-/////////////////// 
-.galleryTwo {
-    .galleryTwo-carousel {
-        max-height: 350px;
-      }
-}
+    /////////////////// 
+    .galleryTwo {
+        .galleryTwo-carousel {
+            max-height: 350px;
+        }
+    }
 
-/////////////////////   
-.organization {
-    height: 600px;
-}
+    /////////////////////   
+    .organization {
+        height: 600px;
+    }
 }

@@ -1,29 +1,36 @@
 @media (min-width: 768px) {
-/////////////////
+
+    /////////////////
     .section-one {
         height: 700px;
         background-position: bottom;
+
         img {
             width: 320px;
             height: 400px;
         }
+
         h1 {
             font-size: 2.6rem;
         }
     }
- //////////////
+
+    //////////////
     .section-two {
         img {
             width: 250px;
             margin-block-end: 30px;
         }
-        h3{ 
+
+        h3 {
             font-size: 1.4rem;
         }
     }
-//////////////
+
+    //////////////
     .card-ugam {
-        min-height: 680px;
+        min-height: 520px;
+
         h5 {
             font-size: 1.5rem;
         }
@@ -32,26 +39,34 @@
     ////////////// 
     .galleryOne img {
         max-height: 360px;
-}
-///////////////////// 
-.galleryTwo {
-    position: relative;
-    h4 {
-        padding: 5px;
-       font-size: 1.6rem;  
-       max-width: 450px;
     }
-    .galleryTwo-carousel {
-        max-height: 450px;
-      }
-}
-//////////////// 
-.expedition-item div.card-body{
-    min-height: 250px;
-}
 
-/////////////////////   
-.organization {
-    height: 650px;
-}
+    ///////////////////// 
+    .galleryTwo {
+        position: relative;
+
+        h4 {
+            padding: 5px;
+            font-size: 1.6rem;
+            max-width: 450px;
+        }
+
+        .galleryTwo-carousel {
+            max-height: 450px;
+        }
+    }
+
+    //////////////// 
+    .expedition-item div.card-body {
+        min-height: 250px;
+    }
+
+    /////////////////////   
+    .organization {
+        height: 650px;
+    }
+
+    #aboutus .imageUs img {
+        height: 35vh;
+    }
 }
