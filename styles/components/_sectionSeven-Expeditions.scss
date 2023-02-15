@@ -3,26 +3,27 @@
     position: relative;
 }
 
-.card-expedition a{
+.card-expedition a {
     margin-bottom: auto;
 }
 
 
 ///// responsive card image!!!!!!
-#recipeCarousel .card-expedition img { 
+#recipeCarousel .card-expedition img {
     object-fit: cover;
     object-position: center;
-    height: 50vh;
+    height: 40vh;
     overflow: hidden;
 }
 
 
 ///////////////////// responsive carousel snippet
 @media (max-width: 767px) {
-    .carousel-inner .carousel-item > div {
+    .carousel-inner .carousel-item>div {
         display: none;
     }
-    .carousel-inner .carousel-item > div:first-child {
+
+    .carousel-inner .carousel-item>div:first-child {
         display: block;
     }
 }
@@ -35,20 +36,19 @@
 
 /* medium and up screens */
 @media (min-width: 768px) {
-    
+
     .expedition-inner .expedition-item-end.active,
     .expedition-inner .expedition-item-next {
-      transform: translateX(25%);
+        transform: translateX(25%);
     }
-    
-    .expedition-inner .expedition-item-start.active, 
+
+    .expedition-inner .expedition-item-start.active,
     .expedition-inner .expedition-item-prev {
-      transform: translateX(-25%);
+        transform: translateX(-25%);
     }
 }
 
 .expedition-inner .expedition-item-end,
-.expedition-inner .expedition-item-start { 
-  transform: translateX(0);
+.expedition-inner .expedition-item-start {
+    transform: translateX(0);
 }
-

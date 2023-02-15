@@ -300,7 +300,7 @@ body {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  height: 50vh;
+  height: 40vh;
   overflow: hidden;
 }
 
