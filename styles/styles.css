@@ -455,3 +455,29 @@ body {
 .organization-content h3 {
   font-family: "Carter One", cursive;
 }
+
+.education_carousel {
+  background-color: #FFB300;
+}
+.education_carousel__img {
+  display: none;
+}
+.education_carousel__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-inline: 10px;
+}
+.education_carousel__content h4 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.education_carousel img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}

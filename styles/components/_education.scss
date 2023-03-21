@@ -1,0 +1,25 @@
+.education_carousel {
+    background-color: $CTA;
+
+    &__img {
+        display: none;
+    }
+
+    &__content {
+        display: flex;
+        padding-inline: 10px;
+
+        h4 {
+            text-transform: uppercase;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+///// responsive card image!!!!!!
+.education_carousel img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+}
