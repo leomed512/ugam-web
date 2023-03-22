@@ -489,3 +489,7 @@ body {
   max-width: 450px;
   overflow: hidden;
 }
+
+.education-itemss {
+  display: none;
+}
