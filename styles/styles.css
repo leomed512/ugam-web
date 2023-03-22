@@ -472,12 +472,18 @@ body {
   text-transform: uppercase;
   padding-bottom: 20px;
 }
-
-.education_carousel img {
+.education_carousel .carousel-inner .carousel-item > div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.education_carousel__img img {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
   height: 50vh;
+  width: 70vw;
+  max-width: 450px;
   overflow: hidden;
 }

@@ -33,13 +33,4 @@
   .education_carousel__content div {
     width: 50%;
   }
-
-  .education_carousel img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
-       object-position: center;
-    height: 60vh;
-    overflow: hidden;
-  }
 }

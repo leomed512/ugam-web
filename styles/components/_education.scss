@@ -14,12 +14,20 @@
             padding-bottom: 20px;
         }
     }
-}
 
-///// responsive card image!!!!!!
-.education_carousel img {
-    object-fit: cover;
-    object-position: center;
-    height: 50vh;
-    overflow: hidden;
+    .carousel-inner .carousel-item>div:first-child {
+        display: flex;
+    }
+
+    ///// responsive card image!!!!!!
+    &__img {
+        img {
+            object-fit: cover;
+            object-position: center;
+            height: 50vh;
+            width: 70vw;
+            max-width: 450px;
+            overflow: hidden;
+        }
+    }
 }

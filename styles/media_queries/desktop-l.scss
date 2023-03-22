@@ -17,4 +17,14 @@
             max-height: 950px;
         }
     }
+
+    .education_carousel {
+        &__img {
+            img {
+                height: 60vh;
+                width: 60vw;
+                max-width: 550px;
+            }
+        }
+    }
 }
