@@ -8,18 +8,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     img {
-        width: 200px;
-        height: 260px;    
+        width: 220px;
+        height: 260px;
     }
+
     h2 {
         margin-block-start: 40px;
         text-align: center;
         color: #000;
         font-family: $title-font;
     }
-   
-}    
+
+}
+
 .grey-div-down {
     height: 50px;
     background-image: linear-gradient(to bottom, #f6fbfe, #f1f5f8, #ebeef1, #e6e8eb, #e0e2e4);

@@ -122,7 +122,8 @@ body {
           box-shadow: 0 0 7px 0 black;
 }
 
-.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
   color: #FFB300;
 }
 
@@ -169,7 +170,7 @@ body {
           align-items: center;
 }
 .section-one img {
-  width: 200px;
+  width: 220px;
   height: 260px;
 }
 .section-one h2 {
@@ -257,6 +258,10 @@ body {
   right: 0;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), to(transparent));
   background: linear-gradient(to right, rgba(255, 255, 255, 0.9), transparent);
+}
+
+.preGalleryOne img {
+  max-width: 300px;
 }
 
 .galleryTwo {
