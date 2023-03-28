@@ -1,5 +1,5 @@
 .organization {
-    height: 500px;
+    height: 600px;
     background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1659319980/UGAM/fondo_c3fw6r.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -8,24 +8,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     img {
         width: 200px;
-        height: 260px;    
+        height: 260px;
     }
+
     h2 {
         margin-block-start: 40px;
         text-align: center;
         color: #000;
         font-family: $title-font;
     }
-   
-   
-} 
- 
 
-.listDisplay  {
+
+}
+
+
+.listDisplay {
     background-color: #E2E2E2;
 }
+
 .listDisplay a {
     background-color: #E2E2E2;
     border: none;
@@ -33,5 +36,6 @@
 
 .organization-content {
     h3 {
-    font-family: $title-font; }
+        font-family: $title-font;
+    }
 }

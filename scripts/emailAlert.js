@@ -37,12 +37,11 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
       resolve('Animation ended');
     }
 
-    node.addEventListener('animationend', handleAnimationEnd, {once: true});
+    node.addEventListener('animationend', handleAnimationEnd, { once: true });
   });
 
-  const animateThis = document.querySelector('#animateButton')
+const animateThis = document.querySelector('#animateButton')
 if (animateThis) {
-  animateThis.addEventListener('click', () => { animateCSS('#contactAnimation', 'rubberBand')})
+  animateThis.addEventListener('click', () => { animateCSS('#contactAnimation', 'rubberBand') })
 }
-  
 

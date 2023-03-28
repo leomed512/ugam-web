@@ -9,7 +9,7 @@
   <meta name="robots" content="index, follow">
   <title>UGAM Venezuela</title>
   <link rel="stylesheet" href="./styles/styles.css">
-  <link rel="stylesheet" href="./styles/media_queries/mobile.css" media="screen and (min-width:550px">
+  <link rel="stylesheet" href="./styles/media_queries/mobile.css" media="screen and (min-width:550px)">
   <link rel="stylesheet" href="./styles/media_queries/tablet.css" media="screen and (min-width:768px)">
   <link rel="stylesheet" href="./styles/media_queries/desktop.css" media="screen and (min-width:1024px)">
   <link rel="stylesheet" href="./styles/media_queries/desktop-l.css" media="screen and (min-width:1260px)">
@@ -521,11 +521,12 @@
         <form>
           <div class="mb-3 row">
             <div class="form-label col-12 col-md-6">
-              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required
+                name="fname">
             </div>
             <div class="form-label col-12 col-md-6">
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Correo electrónico" required>
+                placeholder="Correo electrónico" name="femail" required>
             </div>
           </div>
           <div class="mb-3 form-label">
@@ -534,8 +535,9 @@
             <small class="form-text text-muted">Recuerda dejar tu información de contacto</small>
           </div>
 
-          <button type="button" class="btn btn-warning col-6 col-lg-4 d-grid mx-auto" data-bs-toggle="modal"
-            data-bs-target="#modalEmail">Enviar</button>
+          <!-- <button type="button" class="btn btn-warning col-6 col-lg-4 d-grid mx-auto" data-bs-toggle="modal"
+            data-bs-target="#modalEmail">Enviar</button> -->
+          <button type="submit" class="btn btn-warning col-6 col-lg-4 d-grid mx-auto">Enviar</button>
 
         </form>
       </article>
@@ -691,7 +693,7 @@
   <!-- /footer -->
 
   <!-- MODAL EMAIL -->
-  <div class="modal fade" id="modalEmail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  <!-- <div class="modal fade" id="modalEmail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -714,7 +716,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- /MODAL EMAIL -->
 
