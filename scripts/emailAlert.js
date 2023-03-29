@@ -1,26 +1,4 @@
-const alertPlaceholder = document.getElementById('emailAlertmessage');
-
-const alert = (message, type) => {
-  const wrapper = document.createElement('div')
-  wrapper.innerHTML = [
-    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
-    `   <div>${message}</div>`,
-    '</div>'
-  ].join('')
-
-  alertPlaceholder.append(wrapper)
-}
-
-const alertTrigger = document.getElementById('emailAlertButton')
-if (alertTrigger) {
-  alertTrigger.addEventListener('click', () => {
-    alert('Nuestro equipo se pondrá en contacto contigo muy pronto para atender tu mensaje!', 'success')
-  })
-}
-
 const elementAnimate = document.querySelector('#contactAnimation');
-
-
 
 const animateCSS = (element, animation, prefix = 'animate__') =>
   // We create a Promise and return it
@@ -45,3 +23,33 @@ if (animateThis) {
   animateThis.addEventListener('click', () => { animateCSS('#contactAnimation', 'rubberBand') })
 }
 
+function sendMail() {
+  let nameC = document.getElementById("contactName").value;
+  let emailC = document.getElementById("contactEmail").value;
+  let messageC = document.getElementById("contactMessage").value;
+  if (nameC == "" || emailC == "" || messageC == "") {
+    alert("No se puede enviar un mensaje vacío")
+  } else {
+    let params = {
+      name: nameC,
+      email: emailC,
+      message: messageC,
+    }
+
+    const serviceID = "service_v4als37";
+    const templateID = "template_93hgvci";
+
+    emailjs.send(serviceID, templateID, params)
+      .then(
+        res => {
+          document.getElementById("contactName").value = "";
+          document.getElementById("contactEmail").value = "";
+          document.getElementById("contactMessage").value = "";
+          alert("Mensaje enviado")
+        }
+      )
+      .catch((err) => console.log(err));
+  }
+
+
+}
