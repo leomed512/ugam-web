@@ -38,4 +38,15 @@
     h3 {
         font-family: $title-font;
     }
+
+    img {
+        max-width: 500px;
+    }
+}
+
+#formacion1 img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
 }

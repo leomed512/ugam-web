@@ -58,6 +58,18 @@ body {
 .organization-content h3 {
   font-family: "Carter One", cursive;
 }
+.organization-content img {
+  max-width: 500px;
+}
+
+#formacion1 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
 
 .contactForm {
   background-color: #E2E2E2;
@@ -72,6 +84,10 @@ body {
 
 #emailModal .modal-body h5 {
   font-size: 12px;
+}
+
+.modalEmail {
+  display: none;
 }
 
 .footer {
@@ -461,10 +477,15 @@ body {
   font-family: "Carter One", cursive;
 }
 
+.education {
+  -webkit-margin-before: 80px;
+          margin-block-start: 80px;
+}
+
 .education_carousel {
   background-color: #FFB300;
-  -webkit-margin-after: 150px;
-          margin-block-end: 150px;
+  -webkit-margin-after: 120px;
+          margin-block-end: 120px;
 }
 .education_carousel__img {
   display: none;

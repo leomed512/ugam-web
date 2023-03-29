@@ -28,7 +28,7 @@ function sendMail() {
   let emailC = document.getElementById("contactEmail").value;
   let messageC = document.getElementById("contactMessage").value;
   if (nameC == "" || emailC == "" || messageC == "") {
-    alert("No se puede enviar un mensaje vacío")
+    alert("No se puede enviar un mensaje vacío!")
   } else {
     let params = {
       name: nameC,
@@ -45,10 +45,13 @@ function sendMail() {
           document.getElementById("contactName").value = "";
           document.getElementById("contactEmail").value = "";
           document.getElementById("contactMessage").value = "";
-          alert("Mensaje enviado")
+          alert("Tu mensaje ha sido enviado!")
         }
       )
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+        alert("Algo ha salido mal durante el envío de su mensaje, por favor intente de nuevo.")
+      });
   }
 
 
