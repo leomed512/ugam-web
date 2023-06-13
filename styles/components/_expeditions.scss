@@ -1,6 +1,13 @@
+.expedition {
+    img {
+        max-width: 800px;
+    }
+}
+
 .card-expedition {
     box-shadow: 3px 3px 15px rgba(#000, $alpha: 0.2);
     position: relative;
+    display: flex;
 }
 
 .card-expedition a {
@@ -12,7 +19,7 @@
 #recipeCarousel .card-expedition img {
     object-fit: cover;
     object-position: center;
-    height: 40vh;
+    height: 30vh;
     overflow: hidden;
 }
 

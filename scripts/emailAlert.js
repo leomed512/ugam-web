@@ -36,8 +36,8 @@ function sendMail() {
       message: messageC,
     }
 
-    const serviceID = "service_v4als37";
-    const templateID = "template_93hgvci";
+    const serviceID = "UGAM_Testing";
+    const templateID = "template_v6l8cxd";
 
     emailjs.send(serviceID, templateID, params)
       .then(
@@ -53,6 +53,4 @@ function sendMail() {
         alert("Algo ha salido mal durante el envío de su mensaje, por favor intente de nuevo.")
       });
   }
-
-
 }
