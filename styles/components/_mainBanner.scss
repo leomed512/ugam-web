@@ -1,6 +1,9 @@
 .section-one {
     height: 600px;
-    background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1658958765/UGAM/background_tekjim.png');
+    //background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1658958765/UGAM/background_tekjim.png');
+    //background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1686673520/UGAM/fondo_1_1_lr0gw5.png');
+    //background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1686673698/UGAM/fondo_2_1_s6qqrs.png');
+    background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1686673982/UGAM/fondo_4_1_wq0sbf.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: solid 3px #000;
 
     img {
         width: 220px;

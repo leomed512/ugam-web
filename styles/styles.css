@@ -97,10 +97,10 @@ body {
 }
 .footer a {
   text-decoration: none;
-  color: #EDEDED;
+  color: #FFF;
 }
 .footer a:hover {
-  color: #FFB300;
+  color: #E6FF2A;
 }
 .footer ul {
   -webkit-padding-start: 0;
@@ -118,19 +118,19 @@ body {
           filter: invert(100%);
 }
 .footer .rrss a img:hover {
-  -webkit-filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
-          filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
+  -webkit-filter: invert(88%) sepia(98%) saturate(518%) hue-rotate(8deg) brightness(101%) contrast(100%);
+          filter: invert(88%) sepia(98%) saturate(518%) hue-rotate(8deg) brightness(101%) contrast(100%);
 }
 .footer .contact-icons img {
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
-.footer .contact-icons a:hover {
-  -webkit-filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
-          filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);
+.footer .contact-icons a:hover img {
+  -webkit-filter: invert(88%) sepia(98%) saturate(518%) hue-rotate(8deg) brightness(101%) contrast(100%);
+          filter: invert(88%) sepia(98%) saturate(518%) hue-rotate(8deg) brightness(101%) contrast(100%);
 }
 .footer .ugam-rights {
-  color: #FFB300;
+  color: #E6FF2A;
 }
 
 #header-scroll.header nav {
@@ -140,7 +140,7 @@ body {
 
 .navbar .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #FFB300;
+  color: #E6FF2A;
 }
 
 .main-logo {
@@ -166,7 +166,7 @@ body {
 
 .section-one {
   height: 600px;
-  background-image: url("https://res.cloudinary.com/arawato666/image/upload/v1658958765/UGAM/background_tekjim.png");
+  background-image: url("https://res.cloudinary.com/arawato666/image/upload/v1686673982/UGAM/fondo_4_1_wq0sbf.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,6 +183,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: solid 3px #000;
 }
 .section-one img {
   width: 220px;
@@ -208,6 +209,9 @@ body {
   background-image: linear-gradient(to bottom, #e0e2e4, #e6e8eb, #ebeef1, #f1f5f8, #f6fbfe);
 }
 
+.section-two {
+  padding: 120px 0 120px 0;
+}
 .section-two img {
   width: 150px;
 }
@@ -233,20 +237,10 @@ body {
 }
 
 .card-ugam:hover {
-  -webkit-box-shadow: 2px 2px 10px 3px rgba(255, 179, 0, 0.8);
-          box-shadow: 2px 2px 10px 3px rgba(255, 179, 0, 0.8);
+  -webkit-box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.3);
 }
 
-/*.card-icon-container {
-    display: flex;
-    justify-content: center;
-
-    .card-icon {
-        width: 40px;
-        margin-bottom: 5px;
-        filter: drop-shadow(1px 1px 5px $dark);
-    }
-}*/
 #aboutus .imageUs img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -425,7 +419,7 @@ body {
 }
 .partners-section {
   padding: 50px 0 0 0;
-  background-color: #E2E2E2;
+  background-color: #E3E3E3;
   color: #000;
 }
 .partners-section .parters-icons img {
@@ -490,9 +484,10 @@ body {
 }
 
 .education_carousel {
-  background-color: #FFB300;
+  background-color: #000;
   -webkit-margin-after: 120px;
           margin-block-end: 120px;
+  color: #E3E3E3;
 }
 .education_carousel__img {
   display: none;
@@ -506,6 +501,7 @@ body {
 .education_carousel__content h4 {
   text-transform: uppercase;
   padding-bottom: 20px;
+  color: #E6FF2A;
 }
 .education_carousel .carousel-inner .carousel-item > div:first-child {
   display: -webkit-box;
@@ -525,4 +521,11 @@ body {
 
 .education-itemss {
   display: none;
+}
+
+.educactionIcons {
+  width: 30px;
+  margin-bottom: 20px;
+  -webkit-filter: invert(80%) sepia(78%) saturate(450%) hue-rotate(13deg) brightness(107%) contrast(102%);
+          filter: invert(80%) sepia(78%) saturate(450%) hue-rotate(13deg) brightness(107%) contrast(102%);
 }
