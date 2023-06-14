@@ -2,12 +2,19 @@
     img {
         max-width: 800px;
     }
+
 }
 
 .card-expedition {
     box-shadow: 3px 3px 15px rgba(#000, $alpha: 0.2);
     position: relative;
     display: flex;
+
+    .btn-warning {
+        border: solid 1px $dark;
+        background-color: $CTA !important;
+        color: black !important;
+    }
 }
 
 .card-expedition a {

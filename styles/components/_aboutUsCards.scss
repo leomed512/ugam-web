@@ -15,11 +15,19 @@
     p {
         font-size: 1rem;
     }
+
+    .text-bg-warning {
+        border: solid 1px $light-grey;
+        background-color: $CTA !important;
+        color: black !important;
+    }
+
 }
 
 .card-ugam:hover {
     box-shadow: 2px 2px 10px 3px rgba(#000, $alpha: 0.3);
 }
+
 
 
 

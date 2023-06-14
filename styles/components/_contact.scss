@@ -10,6 +10,12 @@
     button {
         box-shadow: 3px 3px 5px rgba(#000, $alpha: 0.2);
     }
+
+    .btn-warning {
+        border: solid 1px $light-grey;
+        background-color: $CTA !important;
+        color: black !important;
+    }
 }
 
 #emailModal .modal-body h5 {
