@@ -7,6 +7,10 @@
   .section-one {
     height: 900px;
   }
+  .section-one img {
+    width: 320px;
+    height: 400px;
+  }
 
   .section-two h3 {
     font-size: 1.6rem;

@@ -17,6 +17,10 @@
     }
 }
 
+.card-expedition .btn-warning:hover {
+    border: solid 1px $CTA !important;
+}
+
 .card-expedition a {
     margin-bottom: auto;
 }

@@ -327,6 +327,10 @@ body {
   color: black !important;
 }
 
+.card-expedition .btn-warning:hover {
+  border: solid 1px #E6FF2A !important;
+}
+
 .card-expedition a {
   margin-bottom: auto;
 }
@@ -433,19 +437,22 @@ body {
   }
 }
 .partners-section {
-  padding: 50px 0 0 0;
-  background-color: #E3E3E3;
   color: #000;
+  background-color: #EDEDED;
 }
 .partners-section .parters-icons img {
-  min-width: 200px;
+  min-width: 150px;
 }
-.partners-section .icon img {
-  max-width: 100px;
-  margin-top: 50px;
-  /*filter: invert(58%) sepia(97%) saturate(579%) hue-rotate(0deg) brightness(104%) contrast(105%);*/
-  -webkit-filter: invert(84%) sepia(88%) saturate(392%) hue-rotate(9deg) brightness(91%) contrast(126%);
-          filter: invert(84%) sepia(88%) saturate(392%) hue-rotate(9deg) brightness(91%) contrast(126%);
+
+.ugambanner {
+  padding: 120px 0 120px 0;
+}
+.ugambanner img {
+  width: 150px;
+}
+.ugambanner h3 {
+  max-width: 800px;
+  font-size: 1rem;
 }
 
 .exp {
