@@ -1,9 +1,16 @@
 .education {
-    margin-block-start: 80px;
+    //background-color: #000;
+    background-color: #212529;
+    color: $CTA;
+
+    p {
+        color: $light-grey;
+    }
 }
 
 .education_carousel {
-    background-color: #000;
+    background-color: #212529;
+    //background-color: #000;
     margin-block-end: 120px;
     color: $light-grey;
 
@@ -40,9 +47,6 @@
     }
 }
 
-.education-itemss {
-    display: none;
-}
 
 .educactionIcons {
 

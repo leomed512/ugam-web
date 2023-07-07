@@ -501,12 +501,15 @@ body {
 }
 
 .education {
-  -webkit-margin-before: 80px;
-          margin-block-start: 80px;
+  background-color: #212529;
+  color: #E6FF2A;
+}
+.education p {
+  color: #E3E3E3;
 }
 
 .education_carousel {
-  background-color: #000;
+  background-color: #212529;
   -webkit-margin-after: 120px;
           margin-block-end: 120px;
   color: #E3E3E3;
@@ -539,10 +542,6 @@ body {
   width: 70vw;
   max-width: 450px;
   overflow: hidden;
-}
-
-.education-itemss {
-  display: none;
 }
 
 .educactionIcons {

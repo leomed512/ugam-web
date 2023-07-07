@@ -90,7 +90,7 @@
       </div>
       <div class="col-md-8 col-12 py-3 organization-content">
         <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active px-md-5 px-sm-3 px-2" id="list-home" role="tabpanel"
+          <div class="tab-pane fade show active px-md-5 px-sm-3 px-2 pestana" id="list-home" role="tabpanel"
             aria-labelledby="list-home-list">
 
             <h3>¿Quiénes somos?</h3>
@@ -149,7 +149,7 @@
                 alt="">
             </div>
           </div>
-          <div class="tab-pane fade px-md-5 px-sm-3 px-2" id="list-profile" role="tabpanel"
+          <div class="tab-pane fade px-md-5 px-sm-3 px-2 pestana section" id="list-profile" role="tabpanel"
             aria-labelledby="list-profile-list">
             <h3>Nuestra Historia</h3>
             <p>
@@ -242,7 +242,7 @@
                 alt="ugam team">
             </div>
           </div>
-          <div class="tab-pane fade px-md-5 px-sm-3 px-2" id="list-messages" role="tabpanel"
+          <div class="tab-pane fade px-md-5 px-sm-3 px-2 pestana" id="list-messages" role="tabpanel"
             aria-labelledby="list-messages-list">
             <h3>Actividades</h3>
             <p class="pt-2">
@@ -330,7 +330,7 @@
 
             </ul>
           </div>
-          <div class="tab-pane fade px-md-5 px-sm-3 px-2" id="list-settings" role="tabpanel"
+          <div class="tab-pane fade px-md-5 px-sm-3 px-2 pestana section" id="list-settings" role="tabpanel"
             aria-labelledby="list-settings-list">
             <h3>El Equipo de Guías UGAM</h3>
             <p class="pt-2">
@@ -675,36 +675,6 @@
   </footer>
   <!-- /footer -->
 
-  <!-- MODAL EMAIL -->
-  <!-- <div class="modal fade" id="modalEmail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Confirma tu mensaje</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="mb-3">
-            <small class="form-label fs-6">Gracias por escribirnos! <strong>Estás a punto enviar tu mensaje.
-              </strong>Revisa que contenga tu información de contacto.</small>
-          </div>
-          <div id="emailAlertmessage"></div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary" id="emailAlertButton" onClick="setTimeout(function(){
-            window.location.reload();
-         }, 1500);">Enviar mensaje</button>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-  <!-- /MODAL EMAIL -->
-
-
-  <!-- Button trigger modal -->
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
@@ -713,5 +683,39 @@
   integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 <script src="./scripts/slider.js"></script>
 <script src="./scripts/emailAlert.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var claseActiva = localStorage.getItem('claseActiva');
+    var tabActivo = localStorage.getItem('tabActivo');
+
+    if (claseActiva) {
+
+      var seccion = document.getElementById(claseActiva);
+      var tabulador = document.getElementById(tabActivo);
+      //
+      console.log(seccion)
+      console.log(tabulador)
+      const sections = document.querySelectorAll('.pestana');
+      sections.forEach((section) => {
+        section.classList.remove('active');
+        section.classList.remove('show');
+
+      });
+      //
+      const tabs = document.querySelectorAll('.list-group-item');
+      tabs.forEach((section) => {
+        section.classList.remove('active');
+      });
+
+      if (seccion) {
+        seccion.classList.add('active');
+        seccion.classList.add('show');
+        tabulador.classList.add('active');
+
+      }
+    }
+  });
+</script>
 
 </html>

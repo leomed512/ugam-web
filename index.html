@@ -100,7 +100,8 @@
         </div>
       </div>
       <div class="row mt-5 mb-5">
-        <a href="organization.html" class="col-lg-4 mb-4">
+        <a href="organization.html" class="col-lg-4 mb-4 link-section"
+          onclick="goToSection('list-profile', 'list-profile-list')">
           <div class="card mb-4 p-3 rounded-4 card-ugam">
             <figure class="imageUs">
               <img src="https://res.cloudinary.com/arawato666/image/upload/v1659464945/UGAM/rodeo_fscndn.png"
@@ -121,7 +122,8 @@
           </div>
         </a>
 
-        <a href="https://leomed512.github.io/ugam-web/organzation.html#list-settings" class="col-lg-4 mb-4 ps-xl-3">
+        <a href="organization.html" class="col-lg-4 mb-4 ps-xl-3 link-section"
+          onclick="goToSection('list-settings', 'list-settings-list')">
           <div class="card mb-4 p-3 rounded-4 card-ugam ">
             <figure class="imageUs">
               <img
@@ -142,7 +144,7 @@
           </div>
         </a>
 
-        <a href="#" class="col-lg-4 mb-4 ps-xl-3" id="novedades">
+        <a href="#" class="col-lg-4 mb-4 ps-xl-3 link-section" id="novedades">
           <div class="card mb-4 p-3 rounded-4 card-ugam">
             <figure class="imageUs">
               <img src="https://res.cloudinary.com/arawato666/image/upload/v1659287878/UGAM/xample2_ffgikw.png"
@@ -379,11 +381,13 @@
 
 
   <!-- education -->
-  <section class="education">
-    <article class="text-center pt-2">
-      <h3>Formación UGAM</h3>
-      <p>El personal <b>UGAM</b> toma varios cursos de acreditación y homologación de saberes basados en <b>estándares
-          internacionales</b></p>
+  <section class="education pt-5">
+    <article class="text-center pt-5">
+      <h2>Formación UGAM</h2>
+      <p class="pt-3">El personal <b>UGAM</b> toma varios cursos de acreditación y homologación de saberes basados en
+        <b>estándares
+          internacionales</b>
+      </p>
       <p>Tú también puedes participar en nuestros talleres formativo para <b>todo público</b></p>
     </article>
     <section class="mt-5">
@@ -766,5 +770,11 @@
 <script src="./scripts/slider.js"></script>
 <script src="./scripts/emailAlert.js"></script>
 <script src="./scripts/ticker.js"></script>
+<script>
+  function goToSection(clase, tab) {
+    localStorage.setItem('claseActiva', clase);
+    localStorage.setItem('tabActivo', tab);
+  }
+</script>
 
 </html>
