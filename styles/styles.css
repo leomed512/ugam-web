@@ -508,6 +508,19 @@ body {
   color: #E3E3E3;
 }
 
+.listDisplay {
+  background-color: #212529 !important;
+  color: #FFF !important;
+}
+.listDisplay .list-group-item {
+  color: #FFF;
+  background-color: #212529 !important;
+}
+.listDisplay .active {
+  background-color: #E6FF2A !important;
+  color: #212529 !important;
+}
+
 .education_carousel {
   background-color: #212529;
   -webkit-margin-after: 120px;
