@@ -2,6 +2,19 @@
     color: #000;
     background-color: $offwhite;
 
+    .btn-warning {
+        border: #000 solid 0.2px;
+        background-color: $CTA !important;
+        color: black !important;
+        transition: transform 0.5s ease;
+    }
+
+    .btn-warning:hover {
+        border: #000 solid 0.2px;
+        transform: scale(1.1);
+
+    }
+
     .parters-icons img {
         min-width: 150px;
     }
@@ -22,7 +35,13 @@
 }
 
 .ugambanner {
-    padding: 120px 0 120px 0;
+    a {
+        max-width: fit-content;
+        align-self: center;
+    }
+
+    padding: 50px 0 50px 0;
+    transition: transform 1s ease;
 
     img {
         width: 150px
@@ -31,5 +50,25 @@
     h3 {
         max-width: 800px;
         font-size: 1rem;
+    }
+
+    span {
+        display: none;
+    }
+
+    .btn-warning {
+        background-color: $CTA !important;
+        color: black !important;
+    }
+
+}
+
+
+.ugambanner:hover {
+    transform: scale(1.2);
+
+    span {
+        display: block;
+
     }
 }

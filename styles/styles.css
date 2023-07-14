@@ -434,6 +434,20 @@ body {
   color: #000;
   background-color: #EDEDED;
 }
+.partners-section .btn-warning {
+  border: #000 solid 0.2px;
+  background-color: #E6FF2A !important;
+  color: black !important;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+.partners-section .btn-warning:hover {
+  border: #000 solid 0.2px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 .partners-section .parters-icons img {
   min-width: 150px;
 }
@@ -450,7 +464,19 @@ body {
 }
 
 .ugambanner {
-  padding: 120px 0 120px 0;
+  padding: 50px 0 50px 0;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.ugambanner a {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 .ugambanner img {
   width: 150px;
@@ -458,6 +484,21 @@ body {
 .ugambanner h3 {
   max-width: 800px;
   font-size: 1rem;
+}
+.ugambanner span {
+  display: none;
+}
+.ugambanner .btn-warning {
+  background-color: #E6FF2A !important;
+  color: black !important;
+}
+
+.ugambanner:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.ugambanner:hover span {
+  display: block;
 }
 
 .exp {
@@ -515,8 +556,6 @@ body {
 
 .education_carousel {
   background-color: #212529;
-  -webkit-margin-after: 120px;
-          margin-block-end: 120px;
   color: #E3E3E3;
 }
 .education_carousel__img {
