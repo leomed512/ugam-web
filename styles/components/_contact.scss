@@ -16,6 +16,10 @@
         background-color: $CTA !important;
         color: black !important;
     }
+
+    .btn-warning:hover {
+        border: solid 1px $light-grey;
+    }
 }
 
 #emailModal .modal-body h5 {
