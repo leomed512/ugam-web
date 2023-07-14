@@ -516,6 +516,9 @@ body {
   color: #FFF;
   background-color: #212529 !important;
 }
+.listDisplay .list-group-item:hover {
+  color: inherit;
+}
 .listDisplay .active {
   background-color: #E6FF2A !important;
   color: #212529 !important;
