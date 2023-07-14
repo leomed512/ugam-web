@@ -16,8 +16,8 @@ body {
 
 .organization {
   height: 600px;
-  background-image: url("https://res.cloudinary.com/arawato666/image/upload/v1659319980/UGAM/fondo_c3fw6r.png");
-  background-position: center;
+  background-image: url("https://res.cloudinary.com/arawato666/image/upload/v1689355285/UGAM/DJI_0782_abmp3w.jpg");
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -42,17 +42,8 @@ body {
   -webkit-margin-before: 40px;
           margin-block-start: 40px;
   text-align: center;
-  color: #000;
+  color: #FFF;
   font-family: "Carter One", cursive;
-}
-
-.listDisplay {
-  background-color: #E2E2E2;
-}
-
-.listDisplay a {
-  background-color: #E2E2E2;
-  border: none;
 }
 
 .organization-content h3 {
@@ -443,6 +434,17 @@ body {
 .partners-section .parters-icons img {
   min-width: 150px;
 }
+.partners-section__images a {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.partners-section__images img {
+  max-width: 300px;
+}
 
 .ugambanner {
   padding: 120px 0 120px 0;
@@ -508,22 +510,6 @@ body {
   color: #E3E3E3;
 }
 
-.listDisplay {
-  background-color: #212529 !important;
-  color: #FFF !important;
-}
-.listDisplay .list-group-item {
-  color: #FFF;
-  background-color: #212529 !important;
-}
-.listDisplay .list-group-item:hover {
-  color: inherit;
-}
-.listDisplay .active {
-  background-color: #E6FF2A !important;
-  color: #212529 !important;
-}
-
 .education_carousel {
   background-color: #212529;
   -webkit-margin-after: 120px;
@@ -565,4 +551,20 @@ body {
   margin-bottom: 20px;
   -webkit-filter: invert(80%) sepia(78%) saturate(450%) hue-rotate(13deg) brightness(107%) contrast(102%);
           filter: invert(80%) sepia(78%) saturate(450%) hue-rotate(13deg) brightness(107%) contrast(102%);
+}
+
+.listDisplay {
+  background-color: #212529 !important;
+  color: #FFF !important;
+}
+.listDisplay .list-group-item {
+  color: #FFF;
+  background-color: #212529 !important;
+}
+.listDisplay .list-group-item:hover {
+  color: inherit;
+}
+.listDisplay .active {
+  background-color: #E6FF2A !important;
+  color: #212529 !important;
 }

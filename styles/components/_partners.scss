@@ -6,6 +6,18 @@
         min-width: 150px;
     }
 
+    &__images {
+        a {
+            max-width: fit-content;
+            align-self: center;
+        }
+
+        img {
+
+            max-width: 300px;
+        }
+
+    }
 
 }
 

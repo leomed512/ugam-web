@@ -1,0 +1,19 @@
+///// Display menu colors
+.listDisplay {
+    background-color: #212529 !important;
+    color: $light !important;
+
+    .list-group-item {
+        color: $light;
+        background-color: #212529 !important;
+    }
+
+    .list-group-item:hover {
+        color: inherit;
+    }
+
+    .active {
+        background-color: $CTA !important;
+        color: #212529 !important;
+    }
+}
