@@ -34,6 +34,44 @@
     overflow: hidden;
 }
 
+.accordion {
+
+    .accordion-button {
+        background-color: $CTA !important;
+        color: #000 !important;
+        box-shadow: none !important;
+
+    }
+
+    .collapsed {
+
+        background-color: #212529 !important;
+        color: $light !important;
+    }
+
+    .accordion-item {
+        background-color: $dark !important;
+
+    }
+
+    .accordion-body {
+        ul {
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    }
+
+    .accordion-collapse {
+
+        li {
+            list-style: none;
+
+        }
+
+    }
+
+
+}
 
 ///////////////////// responsive carousel snippet
 @media (max-width: 767px) {
