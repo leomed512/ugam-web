@@ -507,7 +507,13 @@ body {
       align-self: center;
 }
 .partners-section__images img {
-  max-width: 300px;
+  max-width: 250px;
+}
+.partners-section .patrocinantes h5 {
+  background-color: #4D4D4D;
+  color: #FFF;
+  max-width: 600px;
+  text-align: center;
 }
 
 .ugambanner {
@@ -526,6 +532,10 @@ body {
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
 }
+.ugambanner a img {
+  width: 60px;
+  padding: 0 10px;
+}
 .ugambanner img {
   width: 250px;
 }
@@ -533,20 +543,10 @@ body {
   max-width: 800px;
   font-size: 1rem;
 }
-.ugambanner a .bagde {
-  margin-top: 50px;
-}
-.ugambanner .btn-warning {
-  background-color: #000 !important;
-  color: #FFF !important;
-  margin-top: 50px;
-  text-decoration: none;
-  padding: 5px 20px;
-}
 
 .ugambanner a:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .ugambanner a:hover span {
   display: block;

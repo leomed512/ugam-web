@@ -27,9 +27,18 @@
 
         img {
 
-            max-width: 300px;
+            max-width: 250px;
         }
 
+    }
+
+    .patrocinantes {
+        h5 {
+            background-color: $dark;
+            color: $light;
+            max-width: 600px;
+            text-align: center;
+        }
     }
 
 }
@@ -42,6 +51,11 @@
         max-width: fit-content;
         align-self: center;
         transition: transform 1s ease;
+
+        img {
+            width: 60px;
+            padding: 0 10px;
+        }
     }
 
     img {
@@ -53,22 +67,10 @@
         font-size: 1rem;
     }
 
-    a .bagde {
-        margin-top: 50px;
-    }
-
-    .btn-warning {
-        background-color: #000 !important;
-        color: $light !important;
-        margin-top: 50px;
-        text-decoration: none;
-        padding: 5px 20px;
-    }
-
 }
 
 .ugambanner a:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
 
     span {
         display: block;
