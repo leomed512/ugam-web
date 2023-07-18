@@ -257,10 +257,9 @@ body {
   height: 40vh;
   -webkit-filter: opacity(75%);
           filter: opacity(75%);
-  z-index: -1;
 }
 .section-two h3 {
-  z-index: 1;
+  padding-inline: 10px;
   max-width: 800px;
   font-size: 1rem;
   color: #FFF;
