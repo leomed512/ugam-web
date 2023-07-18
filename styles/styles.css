@@ -533,13 +533,15 @@ body {
   max-width: 800px;
   font-size: 1rem;
 }
-.ugambanner span {
-  display: none;
+.ugambanner a .bagde {
   margin-top: 50px;
 }
 .ugambanner .btn-warning {
   background-color: #000 !important;
   color: #FFF !important;
+  margin-top: 50px;
+  text-decoration: none;
+  padding: 5px 20px;
 }
 
 .ugambanner a:hover {

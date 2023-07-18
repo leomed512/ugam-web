@@ -53,14 +53,16 @@
         font-size: 1rem;
     }
 
-    span {
-        display: none;
+    a .bagde {
         margin-top: 50px;
     }
 
     .btn-warning {
         background-color: #000 !important;
         color: $light !important;
+        margin-top: 50px;
+        text-decoration: none;
+        padding: 5px 20px;
     }
 
 }
