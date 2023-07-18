@@ -47,4 +47,13 @@
             justify-content: center;
         }
     }
+
+    .card-guia {
+        min-height: 650px;
+    }
+
+    ///// responsive card image!!!!!!
+    #recipeCarousel .card-guia img {
+        height: 50vh;
+    }
 }

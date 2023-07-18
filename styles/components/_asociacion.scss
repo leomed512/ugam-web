@@ -30,7 +30,7 @@
     }
 
     img {
-        max-width: 500px;
+        //max-width: 500px;
     }
 
 }
@@ -47,7 +47,7 @@
     box-shadow: 3px 3px 15px rgba(#000, $alpha: 0.2);
     position: relative;
     display: flex;
-    min-height: 630px;
+    min-height: 600px;
     max-width: 400px;
     align-self: center;
 
@@ -76,6 +76,6 @@
     ;
     object-fit: cover;
     object-position: center;
-    height: 50vh;
+    height: 40vh;
     overflow: hidden;
 }

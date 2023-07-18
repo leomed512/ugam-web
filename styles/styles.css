@@ -49,10 +49,6 @@ body {
 .organization-content h3 {
   font-family: "Carter One", cursive;
 }
-.organization-content img {
-  max-width: 500px;
-}
-
 #formacion1 img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -69,7 +65,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 630px;
+  min-height: 600px;
   max-width: 400px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -97,7 +93,7 @@ body {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  height: 50vh;
+  height: 40vh;
   overflow: hidden;
 }
 
@@ -487,7 +483,7 @@ body {
   background-color: #EDEDED;
 }
 .partners-section .btn-warning {
-  border: #000 solid 0.2px;
+  border: #4D4D4D solid 0.2px;
   background-color: #E6FF2A !important;
   color: black !important;
   -webkit-transition: -webkit-transform 0.5s ease;
@@ -496,7 +492,7 @@ body {
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 .partners-section .btn-warning:hover {
-  border: #000 solid 0.2px;
+  border: #4D4D4D solid 0.2px;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }

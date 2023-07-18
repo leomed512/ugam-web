@@ -3,14 +3,14 @@
     background-color: $offwhite;
 
     .btn-warning {
-        border: #000 solid 0.2px;
+        border: $dark solid 0.2px;
         background-color: $CTA !important;
         color: black !important;
         transition: transform 0.5s ease;
     }
 
     .btn-warning:hover {
-        border: #000 solid 0.2px;
+        border: $dark solid 0.2px;
         transform: scale(1.1);
 
     }
