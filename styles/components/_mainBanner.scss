@@ -1,8 +1,5 @@
 .section-one {
     height: 600px;
-    //background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1658958765/UGAM/background_tekjim.png');
-    //background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1686673520/UGAM/fondo_1_1_lr0gw5.png');
-    //background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1686673698/UGAM/fondo_2_1_s6qqrs.png');
     background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1686673982/UGAM/fondo_4_1_wq0sbf.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: solid 3px #000;
+    border-bottom: solid 0.2px $dark;
 
     img {
         width: 220px;
@@ -29,10 +26,10 @@
 
 .grey-div-down {
     height: 50px;
-    background-image: linear-gradient(to bottom, #f6fbfe, #f1f5f8, #ebeef1, #e6e8eb, #e0e2e4);
+    background-image: linear-gradient(to bottom, #FFF, #f6fbfe, #f1f5f8, #ebeef1, #e6e8eb);
 }
 
 .grey-div-up {
     height: 50px;
-    background-image: linear-gradient(to bottom, #e0e2e4, #e6e8eb, #ebeef1, #f1f5f8, #f6fbfe);
+    background-image: linear-gradient(to bottom, #e6e8eb, #ebeef1, #f1f5f8, #f6fbfe, #FFF);
 }

@@ -1,12 +1,19 @@
 .section-two {
-    padding: 120px 0 120px 0;
-
-    img {
-        width: 150px
-    }
+    background-image: url('https://res.cloudinary.com/arawato666/image/upload/v1689647040/DJI_0782_abmp3w_evuvdn.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    filter: opacity(75%);
+    z-index: -1;
 
     h3 {
+        z-index: 1;
         max-width: 800px;
         font-size: 1rem;
+        color: $light;
+        text-shadow: 2px 2px 2px #000;
+
     }
+
 }

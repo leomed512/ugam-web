@@ -35,16 +35,17 @@
 }
 
 .ugambanner {
+    background-color: $light;
+    padding: 150px 0 150px 0;
+
     a {
         max-width: fit-content;
         align-self: center;
+        transition: transform 1s ease;
     }
 
-    padding: 50px 0 50px 0;
-    transition: transform 1s ease;
-
     img {
-        width: 150px
+        width: 250px
     }
 
     h3 {
@@ -54,18 +55,18 @@
 
     span {
         display: none;
+        margin-top: 50px;
     }
 
     .btn-warning {
-        background-color: $CTA !important;
-        color: black !important;
+        background-color: #000 !important;
+        color: $light !important;
     }
 
 }
 
-
-.ugambanner:hover {
-    transform: scale(1.2);
+.ugambanner a:hover {
+    transform: scale(1.05);
 
     span {
         display: block;

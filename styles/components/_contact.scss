@@ -15,10 +15,12 @@
         border: solid 1px $light-grey;
         background-color: $CTA !important;
         color: black !important;
+        transition: transform 1s ease;
     }
 
     .btn-warning:hover {
         border: solid 1px $light-grey;
+        transform: scale(1.2);
     }
 }
 

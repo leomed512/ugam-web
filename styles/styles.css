@@ -115,9 +115,15 @@ body {
   border: solid 1px #E3E3E3;
   background-color: #E6FF2A !important;
   color: black !important;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 .contactForm .btn-warning:hover {
   border: solid 1px #E3E3E3;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 #emailModal .modal-body h5 {
@@ -221,7 +227,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: solid 3px #000;
+  border-bottom: solid 0.2px #4D4D4D;
 }
 .section-one img {
   width: 220px;
@@ -237,25 +243,32 @@ body {
 
 .grey-div-down {
   height: 50px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6fbfe), color-stop(#f1f5f8), color-stop(#ebeef1), color-stop(#e6e8eb), to(#e0e2e4));
-  background-image: linear-gradient(to bottom, #f6fbfe, #f1f5f8, #ebeef1, #e6e8eb, #e0e2e4);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), color-stop(#f6fbfe), color-stop(#f1f5f8), color-stop(#ebeef1), to(#e6e8eb));
+  background-image: linear-gradient(to bottom, #FFF, #f6fbfe, #f1f5f8, #ebeef1, #e6e8eb);
 }
 
 .grey-div-up {
   height: 50px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e0e2e4), color-stop(#e6e8eb), color-stop(#ebeef1), color-stop(#f1f5f8), to(#f6fbfe));
-  background-image: linear-gradient(to bottom, #e0e2e4, #e6e8eb, #ebeef1, #f1f5f8, #f6fbfe);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6e8eb), color-stop(#ebeef1), color-stop(#f1f5f8), color-stop(#f6fbfe), to(#FFF));
+  background-image: linear-gradient(to bottom, #e6e8eb, #ebeef1, #f1f5f8, #f6fbfe, #FFF);
 }
 
 .section-two {
-  padding: 120px 0 120px 0;
-}
-.section-two img {
-  width: 150px;
+  background-image: url("https://res.cloudinary.com/arawato666/image/upload/v1689647040/DJI_0782_abmp3w_evuvdn.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  -webkit-filter: opacity(75%);
+          filter: opacity(75%);
+  z-index: -1;
 }
 .section-two h3 {
+  z-index: 1;
   max-width: 800px;
   font-size: 1rem;
+  color: #FFF;
+  text-shadow: 2px 2px 2px #000;
 }
 
 .aboutUsCards a {
@@ -503,11 +516,8 @@ body {
 }
 
 .ugambanner {
-  padding: 50px 0 50px 0;
-  -webkit-transition: -webkit-transform 1s ease;
-  transition: -webkit-transform 1s ease;
-  transition: transform 1s ease;
-  transition: transform 1s ease, -webkit-transform 1s ease;
+  background-color: #FFF;
+  padding: 150px 0 150px 0;
 }
 .ugambanner a {
   max-width: -webkit-fit-content;
@@ -516,9 +526,13 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 .ugambanner img {
-  width: 150px;
+  width: 250px;
 }
 .ugambanner h3 {
   max-width: 800px;
@@ -526,17 +540,18 @@ body {
 }
 .ugambanner span {
   display: none;
+  margin-top: 50px;
 }
 .ugambanner .btn-warning {
-  background-color: #E6FF2A !important;
-  color: black !important;
+  background-color: #000 !important;
+  color: #FFF !important;
 }
 
-.ugambanner:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+.ugambanner a:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
-.ugambanner:hover span {
+.ugambanner a:hover span {
   display: block;
 }
 
