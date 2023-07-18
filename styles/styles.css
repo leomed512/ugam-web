@@ -62,6 +62,45 @@ body {
   overflow: hidden;
 }
 
+.card-guia {
+  -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 630px;
+  max-width: 400px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.card-guia .btn-info {
+  position: absolute;
+  bottom: 15px;
+}
+.card-guia img {
+  max-width: 800px;
+}
+
+.card-guia .btn-warning:hover {
+  border: solid 1px #E6FF2A !important;
+}
+
+.card-guia a {
+  margin-bottom: auto;
+}
+
+#recipeCarousel .card-guia img {
+  border-radius: 10px 10px 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
 .contactForm {
   background-color: #E2E2E2;
 }

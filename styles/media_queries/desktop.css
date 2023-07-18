@@ -41,4 +41,9 @@
   .organization-content img {
     max-width: 650px;
   }
+
+  .card-guia {
+    min-height: 630px;
+    max-width: none;
+  }
 }

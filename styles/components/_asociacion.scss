@@ -41,3 +41,41 @@
     height: 50vh;
     overflow: hidden;
 }
+
+///////////// tarjetas guias
+.card-guia {
+    box-shadow: 3px 3px 15px rgba(#000, $alpha: 0.2);
+    position: relative;
+    display: flex;
+    min-height: 630px;
+    max-width: 400px;
+    align-self: center;
+
+    .btn-info {
+        position: absolute;
+        bottom: 15px;
+    }
+
+    img {
+        max-width: 800px;
+    }
+}
+
+.card-guia .btn-warning:hover {
+    border: solid 1px $CTA !important;
+}
+
+.card-guia a {
+    margin-bottom: auto;
+}
+
+
+///// responsive card image!!!!!!
+#recipeCarousel .card-guia img {
+    border-radius: 10px 10px 0px 0px;
+    ;
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+}
