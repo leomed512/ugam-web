@@ -398,7 +398,7 @@ body {
   color: #FFF !important;
 }
 .accordion .accordion-item {
-  background-color: #4D4D4D !important;
+  background-color: #212529 !important;
 }
 .accordion .accordion-body ul {
   padding: 0 !important;
@@ -406,6 +406,10 @@ body {
 }
 .accordion .accordion-collapse li {
   list-style: none;
+}
+.accordion .accordion-collapse li:hover {
+  color: #FFF !important;
+  font-size: larger;
 }
 
 @media (max-width: 767px) {
