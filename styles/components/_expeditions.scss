@@ -91,6 +91,55 @@
     display: flex;
 }
 
+.ugamInfo {
+    padding: 50px 0 50px 0;
+
+    a {
+        max-width: fit-content;
+        align-self: center;
+        transition: transform 1s ease;
+
+        img {
+            width: 60px;
+            padding: 0 10px;
+        }
+    }
+
+    img {
+        width: 250px
+    }
+
+    h6 {
+        max-width: 400px;
+        font-size: 1rem;
+    }
+
+}
+
+/////
+.cotizando {
+
+    button {
+        box-shadow: 3px 3px 5px rgba(#000, $alpha: 0.2);
+    }
+
+    .btn-warning {
+        border: solid 1px $light-grey;
+        background-color: $CTA !important;
+        color: black !important;
+        transition: transform 1s ease;
+    }
+
+    .btn-warning:hover {
+        border: solid 1px $light-grey;
+        transform: scale(1.2);
+    }
+
+    .btn-warning:active {
+        box-shadow: none;
+    }
+}
+
 /* medium and up screens */
 @media (min-width: 768px) {
 

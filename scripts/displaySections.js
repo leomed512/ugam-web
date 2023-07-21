@@ -7,14 +7,13 @@ function goToSection(clase, tab) {
 document.addEventListener('DOMContentLoaded', function () {
     var claseActiva = localStorage.getItem('claseActiva');
     var tabActivo = localStorage.getItem('tabActivo');
-    console.log(claseActiva, tabActivo);
+
     if (claseActiva) {
 
         var seccion = document.getElementById(claseActiva);
         var tabulador = document.getElementById(tabActivo);
         //
-        console.log(seccion)
-        console.log(tabulador)
+
         const sections = document.querySelectorAll('.pestana');
         sections.forEach((section) => {
             section.classList.remove('active');
@@ -35,3 +34,4 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 });
+

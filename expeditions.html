@@ -1224,8 +1224,64 @@
 
           <!-- otros destinos -->
         </div>
+        <div class="d-flex justify-content-center my-5">
+          <button type="button" onclick="displaContact()" class="btn btn-info">Cotizar</button>
+        </div>
+        <section id="infoCont" class="ugamInfoContainer" style="display: none;">
+          <div class="ugamInfo d-flex flex-column align-items-center justify-content-between mt-0">
+            <section class="mb-4">
+              <h6 class="text-center">Solicita información sobre itinerarios, presupuestos y ajusta cada destino a tu
+                medida</h6>
+            </section>
+            <img class="img-fluid"
+              src="https://res.cloudinary.com/arawato666/image/upload/v1679670285/UGAM/Recurso_1_zgunrm.png"
+              alt="ugam logo">
+            <section class="d-flex justify-content-around mt-4">
+              <a href="javascript:void(0);" onclick="displaEmailForm()"><img class="img-fluid"
+                  src="https://res.cloudinary.com/arawato666/image/upload/v1689956908/gmailicon_vjmoty.png" alt="email">
+              </a>
+              <a href="https://wa.me/584120353255/?text=Hola!%20Quisiera%20información%20sobre%20los%20servicios%20UGAM."
+                target="_blank"><img class="img-fluid"
+                  src="https://res.cloudinary.com/arawato666/image/upload/v1689693155/icons8-whatsapp-100_fpiaho.png"
+                  alt="whatsapp"></a>
+            </section>
+          </div>
+        </section>
+        <!-- contact form -->
+        <section class="cotizando" id="cotizarFormContainer" style="display: none;">
+          <div class="container-fluid pb-5">
+            <article class="pt-5 d-flex flex-column align-items-center heading">
+              <h2 class="fw-bold mb-3" id="contactAnimation">Envíamos un Email</h2>
+            </article>
+            <article class="container">
+              <form>
+                <div class="mb-3 row">
+                  <div class="form-label col-12 col-md-6">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required
+                      id="contactName">
+                  </div>
+                  <div class="form-label col-12 col-md-6">
+                    <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp"
+                      placeholder="Correo electrónico" required>
+                  </div>
+                </div>
+                <div class="mb-3 form-label">
+                  <textarea class="form-control" id="contactMessage" rows="3" placeholder="Escribe tu mensaje"
+                    required></textarea>
+                  <small class="form-text text-muted">Recuerda escribir tu información de contacto</small>
+                </div>
+                <button type="button" class="btn btn-warning col-6 col-lg-4 d-grid mx-auto"
+                  onclick="sendMail()">Enviar</button>
+              </form>
+            </article>
+          </div>
+        </section>
+        <!--/ contact form -->
+
       </div>
+
     </div>
+
   </div>
 
   <!-- / expeditions -->
@@ -1327,5 +1383,6 @@
 <script src="./scripts/slider.js"></script>
 <script src="./scripts/emailAlert.js"></script>
 <script src="./scripts/displaySections.js"></script>
+<script src="./scripts/cotizar.js"></script>
 
 </html>
