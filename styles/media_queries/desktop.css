@@ -46,4 +46,8 @@
     min-height: 630px;
     max-width: none;
   }
+
+  #recipeCarousel .card-guia img {
+    height: 70vh;
+  }
 }

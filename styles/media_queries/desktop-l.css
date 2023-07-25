@@ -17,4 +17,8 @@
     width: 60vw;
     max-width: 550px;
   }
+
+  #recipeCarousel .card-guia img {
+    height: 50vh;
+  }
 }
