@@ -344,10 +344,6 @@ body {
   z-index: 2;
 }
 
-.expedition img {
-  max-width: 800px;
-}
-
 .card-expedition {
   -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);

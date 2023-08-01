@@ -47,6 +47,10 @@
     max-width: none;
   }
 
+  .expedition img {
+    max-width: 600px;
+  }
+
   #recipeCarousel .card-guia img {
     height: 70vh;
   }

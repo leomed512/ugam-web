@@ -71,7 +71,14 @@
 
     }
 
-    ///// responsive card image!!!!!!
+    .expedition {
+        img {
+            max-width: 600px;
+        }
+    }
+
+
+    ///// responsive guide card image!!!!!!
     #recipeCarousel .card-guia img {
         height: 70vh;
     }
