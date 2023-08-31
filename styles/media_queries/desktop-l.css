@@ -13,9 +13,9 @@
   }
 
   .education_carousel__img img {
-    height: 60vh;
+    height: 50vh;
     width: 60vw;
-    max-width: 550px;
+    max-width: 500px;
   }
   .education_carousel h6 {
     max-width: 900px;

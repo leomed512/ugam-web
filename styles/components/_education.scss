@@ -9,6 +9,18 @@
 
 }
 
+.separate {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    &__div {
+        background-color: $CTA;
+        height: 2px;
+        width: 70vw;
+    }
+
+}
 
 /////////
 .education_carousel {
@@ -41,7 +53,7 @@
         img {
             object-fit: cover;
             object-position: center;
-            height: 50vh;
+            height: 40vh;
             width: 70vw;
             max-width: 450px;
             overflow: hidden;
