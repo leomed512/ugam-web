@@ -14,6 +14,24 @@ body {
   overflow-x: hidden;
 }
 
+.scroll-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.scroll-top-btn i {
+  line-height: 10px;
+}
+
 .organization {
   height: 600px;
   background-image: url("https://res.cloudinary.com/arawato666/image/upload/v1689355285/UGAM/DJI_0782_abmp3w.jpg");
@@ -51,6 +69,7 @@ body {
 .organization-content h3 {
   font-family: "Carter One", cursive;
 }
+
 #formacion1 img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -617,6 +636,25 @@ body {
   display: block;
 }
 
+.partners_invite {
+  background-color: #212529;
+  color: #FFF;
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .exp {
   height: 500px;
   background-image: url("https://res.cloudinary.com/arawato666/image/upload/v1659319980/UGAM/fondo_c3fw6r.png");
@@ -670,6 +708,21 @@ body {
   color: #E3E3E3;
 }
 
+.separate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+.separate__div {
+  background-color: #E6FF2A;
+  height: 2px;
+  width: 70vw;
+}
+
 .education_carousel {
   background-color: #212529;
   color: #E3E3E3;
@@ -698,7 +751,7 @@ body {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  height: 50vh;
+  height: 40vh;
   width: 70vw;
   max-width: 450px;
   overflow: hidden;

@@ -29,6 +29,7 @@
       emailjs.init("3EjT6Fl1iN7tHVs61");
     })();
   </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
@@ -141,7 +142,8 @@
           </div>
         </a>
 
-        <a href="./novedades.html" class="col-lg-4 mb-4 ps-xl-3 link-section" id="novedades">
+        <a href="./novedades.html" class="col-lg-4 mb-4 ps-xl-3 link-section" id="novedades"
+          onclick="goToSection('list-home', 'list-home-list')">
           <div class="card mb-4 p-3 rounded-4 card-ugam">
             <figure class="imageUs">
               <img src="https://res.cloudinary.com/arawato666/image/upload/v1689355285/UGAM/IMG_5909_kgjym5.jpg"
@@ -188,7 +190,8 @@
           <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://res.cloudinary.com/arawato666/image/upload/v1689355284/UGAM/IMG_5920_mbd8sl.jpg"
+                <img
+                  src="https://res.cloudinary.com/arawato666/image/upload/v1690322949/IMG_20151222_070121307_HDR_fsbq8d.jpg"
                   class="d-block w-100 img-fluid rounded-start" alt="...">
               </div>
               <div class="carousel-item">
@@ -232,8 +235,9 @@
                     <li>Dificultad: intermedia</li>
                     <li>Tipo de actividad: excursión Full Day o con pernocta con escalada en roca</li>
                   </ul>
-                  <a href="expeditions.html" class="btn btn-warning"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                  <a href="./expeditions.html" class="btn btn-warning"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"
+                    onclick="goToSection('list-settings', 'list-settings-list')">
                     Saber más
                   </a>
                 </div>
@@ -415,10 +419,13 @@
         información</h6>
       <a href="#contactFormContainer" class="btn btn-outline-light ms-2 p-1 mt-2">Escríbenos</a>
     </article>
+    <article class="separate">
+      <div class="separate__div"></div>
+    </article>
     <section class="mt-5">
       <article class="education_carousel pt-2">
         <div id="educationCarousel" class="carousel slide">
-          <div class="carousel-inner py-5">
+          <div class="carousel-inner pb-5">
             <div class="carousel-item active">
               <div class="education_carousel__content">
                 <article class="education_carousel__img">
@@ -598,8 +605,8 @@
         <div class="d-flex justify-content-center patrocinantes">
           <h5 class="text-center rounded rounded-2  py-2 px-5">Nuestros patrocinantes y colaboradores</h5>
         </div>
-        <section class="d-flex flex-column partners-section__images">
-          <a href="https://www.fycotelecom.com/" target="_blank"><img class="img-fluid"
+        <section class="d-flex justify-content-center flex-wrap partners-section__images">
+          <a href="https://www.fycotelecom.com/" class="m-3" target="_blank"><img class="img-fluid"
               src="https://res.cloudinary.com/arawato666/image/upload/v1660234014/UGAM/logos/fyco-removebg-preview_1_ainp73.png"
               alt="fyco telecomunicaciones logo"></a>
           <a href="https://instagram.com/hakunamatataxelmundo?igshid=MzRlODBiNWFlZA==" target="_blank">
@@ -610,14 +617,15 @@
         </section>
 
       </div>
-      <div class="col-12 text-center py-5">
-        <h5 class="py-2">Deseas unir fuerzas con nosotros en algún proyecto? <br>Quieres participar como
+      <div
+        class="col-8 offset-2 col-md-6 offset-md-3 col-xl-4 offset-xl-4 mt-3 py-3 partners_invite rounded rounded-5 text-center">
+        <h6 class="py-2">Deseas unir fuerzas con nosotros en algún proyecto? <br>Quieres participar como
           <b>patrocinante</b>?
-        </h5>
-        <a href="#contactFormContainer" class="btn btn-dark btn-md mt-2 mb-5">Contactar</a>
-        <h5 class="py-2">Entérate de nuestro trabajo, últimas noticias y proyectos <br> futuros en nuestra sección de
+        </h6>
+        <a href="#contactFormContainer" class="btn btn-info btn-sm mt-2 mb-5">Contactar</a>
+        <h6 class="py-2">Entérate de nuestro trabajo, últimas noticias y proyectos <br> futuros en nuestra sección de
           <b>Novedades</b>
-        </h5>
+        </h6>
         <a href="./novedades.html" class="btn btn-warning btn-sm mt-3">Novedades</a>
       </div>
     </div>
@@ -718,9 +726,6 @@
     </div>
     <article class="ticker">
       <div class="ticker__list col">
-        <div class="ticker__item"><a href="https://www.instagram.com/arawato.adventures/?hl=en" target="_blank"><img
-              src="https://res.cloudinary.com/arawato666/image/upload/v1676505540/UGAM/Logo_Arawato_Adventures_2_1_ildxtc.png"
-              alt="arawato adventures logo"></a></div>
         <div class="ticker__item"><a href="https://www.instagram.com/meridatrekking/?hl=en" target="_blank"><img
               src="https://res.cloudinary.com/arawato666/image/upload/v1660232813/UGAM/logos/meridatrekking_uegroe.png"
               alt=" meridatrekking logo"></a></div>
@@ -735,9 +740,6 @@
             target="_blank"><img
               src="https://res.cloudinary.com/arawato666/image/upload/v1676505610/UGAM/Sina%C3%AD_enauaq.png"
               alt="Sinaí"></a></div>
-        <div class="ticker__item"><a href="#" target="_blank"><img
-              src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png"
-              alt="Mango Tours"></a></div>
         <div class="ticker__item"><a href="https://instagram.com/icaqueexpedicion?igshid=MzRlODBiNWFlZA=="
             target="_blank"><img
               src="https://res.cloudinary.com/arawato666/image/upload/v1686747823/Icaque-Negro-sin-fondo_1_ahdkxm.png"
@@ -746,9 +748,6 @@
             target="_blank"><img
               src="https://res.cloudinary.com/arawato666/image/upload/v1686670080/UGAM/foto_ugam6_pgv2ma.png"
               alt="Andinismo"></a></div>
-        <div class="ticker__item"><a href="https://instagram.com/icaqueexpedicion?igshid=MzRlODBiNWFlZA=="
-            target="_blank"><img src="https://res.cloudinary.com/arawato666/image/upload/v1660232813/UGAM/logos/zawrat_t2c8in.png
-            " alt="Zawrat"></a></div>
       </div>
     </article>
 
@@ -841,6 +840,7 @@
         </div>
       </div>
     </div>
+    <button id="scrollTopButton" class="scroll-top-btn"><i class="fas fa-arrow-up"></i></button>
   </footer>
   <!-- /footer -->
 
@@ -853,5 +853,6 @@
 <script src="./scripts/emailAlert.js"></script>
 <script src="./scripts/ticker.js"></script>
 <script src="./scripts/displaySections.js"></script>
+<script src="./scripts/topbtn.js"></script>
 
 </html>
