@@ -131,8 +131,8 @@
                         href="#mifesMucunuque" role="tab" aria-controls="list-profile" href="#">Pico Mifés /
                         Mucuñuque</a>
                     </li>
-                    <li><a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
-                        href="#picoGavilan" role="tab" aria-controls="list-profile" href="#">Pico El Gavilán</a></li>
+                    <li><a class="list-group-item list-group-item-action" id="elgavilan-list" data-bs-toggle="list"
+                        href="#elgavilan" role="tab" aria-controls="list-profile" href="#">Pico El Gavilán</a></li>
                     <li><a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
                         href="#espolonMiranda" role="tab" aria-controls="list-profile" href="#">Espolón Miranda</a></li>
                     <li> <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
@@ -575,8 +575,8 @@
               </div>
             </div>
           </div>
-          <div class="tab-pane mt-4 fade px-md-5 px-sm-3 px-2" id="picoGavilan" role="tabpanel"
-            aria-labelledby="list-profile-list">
+          <div class="tab-pane mt-4 fade px-md-5 px-sm-3 px-2" id="elgavilan" role="tabpanel"
+            aria-labelledby="elgavilan-tab">
             <div>
               <h3>Pico El Gavilán</h3>
               <p class="pt-2">
@@ -1365,5 +1365,33 @@
 <script src="./scripts/emailAlert.js"></script>
 <script src="./scripts/cotizar.js"></script>
 <script src="./scripts/topbtn.js"></script>
+<script src="./scripts/displayExp.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Recupera los valores de localStorage
+    const activeAccordionItem = localStorage.getItem('activeAccordionItem');
+    const activeListItem = localStorage.getItem('activeListItem');
+    const activeTabItem = localStorage.getItem('activeTabItem');
+
+    // Activa la pestaña correspondiente en el accordion
+    const accordionItem = document.getElementById(activeAccordionItem);
+    if (accordionItem) {
+      accordionItem.classList.add('show'); // Abre el elemento del accordion si es necesario
+    }
+
+    // Activa la pestaña correspondiente en la lista
+    const listItem = document.getElementById(activeListItem);
+    if (listItem) {
+      listItem.click(); // Simula un clic en la lista para activar la pestaña
+    }
+
+    // Activa la pestaña correspondiente en el contenido tab
+    const tabItem = document.getElementById(activeTabItem);
+    if (tabItem) {
+      tabItem.classList.add('active');
+    }
+  });
+
+</script>
 
 </html>
