@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener("DOMContentLoaded", function () {
     const scrollTopButton = document.querySelector(".scroll-top-btn");
 
