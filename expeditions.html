@@ -1373,7 +1373,7 @@
     // Recupera los valores de localStorage
     const activeAccordionItem = localStorage.getItem('activeAccordionItem');
     const activeListItem = localStorage.getItem('activeListItem');
-    const activeTabItem = localStorage.getItem('activeTabItem');
+
     const activeParentTabItem = localStorage.getItem('activeParentTabItem');
 
 
@@ -1387,12 +1387,6 @@
     const listItem = document.getElementById(activeListItem);
     if (listItem) {
       listItem.click(); // Simula un clic en la lista para activar la pestaña
-    }
-
-    // Activa la pestaña correspondiente en el contenido tab
-    const tabItem = document.getElementById(activeTabItem);
-    if (tabItem) {
-      tabItem.classList.add('active');
     }
 
     ///

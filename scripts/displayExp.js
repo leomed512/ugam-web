@@ -1,8 +1,7 @@
-function goToSectionNew(accordionItemId, listItemId, tabItemId, containerId) {
+function goToSectionNew(accordionItemId, listItemId, containerId) {
     // Almacena la pestaña activa en localStorage
     localStorage.setItem('activeAccordionItem', accordionItemId);
     localStorage.setItem('activeListItem', listItemId);
-    localStorage.setItem('activeTabItem', tabItemId);
     localStorage.setItem('activeParentTabItem', containerId);
 
     // Redirige a expeditions.html
