@@ -50,7 +50,7 @@
               <a class="nav-link" href="./index.html#education">Educación</a>
             </li>
             <li class="nav-item ms-4 ">
-              <a class="nav-link" href="./expeditions.html">Expediciones</a>
+              <a class="nav-link" href="./expeditions.html" onclick="goToSectionNew()">Expediciones</a>
             </li>
             <li class="nav-item ms-4">
               <a class="nav-link" href="./novedades.html">Novedades</a>
@@ -1393,34 +1393,5 @@
 <script src="./scripts/cotizar.js"></script>
 <script src="./scripts/topbtn.js"></script>
 <script src="./scripts/displayExp.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // Recupera los valores de localStorage
-    const activeAccordionItem = localStorage.getItem('activeAccordionItem');
-    const activeListItem = localStorage.getItem('activeListItem');
-
-    const activeParentTabItem = localStorage.getItem('activeParentTabItem');
-
-
-    // Activa la pestaña correspondiente en el accordion
-    const accordionItem = document.getElementById(activeAccordionItem);
-    if (accordionItem) {
-      accordionItem.classList.add('show'); // Abre el elemento del accordion si es necesario
-    }
-
-    // Activa la pestaña correspondiente en la lista
-    const listItem = document.getElementById(activeListItem);
-    if (listItem) {
-      listItem.click(); // Simula un clic en la lista para activar la pestaña
-    }
-
-    ///
-    const parentTabItem = document.getElementById(activeParentTabItem);
-    if (parentTabItem) {
-      parentTabItem.classList.remove('collapsed');
-    }
-  });
-
-</script>
 
 </html>
