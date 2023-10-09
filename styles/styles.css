@@ -27,6 +27,7 @@ body {
   height: 30px;
   font-size: 20px;
   cursor: pointer;
+  z-index: 99999999;
 }
 .scroll-top-btn i {
   line-height: 10px;
