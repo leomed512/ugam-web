@@ -24,6 +24,44 @@
     href="https://fonts.googleapis.com/css2?family=Carter+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <style>
+    .owl-carousel .card {
+      border: 1px solid #ccc;
+      border-top-right-radius: 40px;
+      border-top-left-radius: 40px;
+      margin: 10px;
+      text-align: center;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      min-height: max-content;
+    }
+
+    .owl-carousel .card img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .owl-carousel .card .card-body {
+      padding: 10px;
+      flex-grow: 1;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+      font-size: 50px;
+      color: #333;
+      margin-right: 30px;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -62,6 +100,7 @@
         </div>
       </div>
     </nav>
+
   </header>
   <!-- / Navbar -->
   <!-- section one -->
@@ -88,6 +127,9 @@
             href="#list-messages" role="tab" aria-controls="list-messages">Actividades</a>
           <a class="list-group-item list-group-item-action rounded-0" id="list-settings-list" data-bs-toggle="list"
             href="#list-settings" role="tab" aria-controls="list-settings">Equipo de Guías UGAM</a>
+
+          <a class="list-group-item list-group-item-action rounded-0" id="porteadores-tab" data-bs-toggle="list"
+            href="#porteadores" role="tab" aria-controls="porteadores">Porteadores UGAM</a>
         </div>
       </div>
       <div class="col-md-8 col-12 py-3 organization-content mt-sm-4">
@@ -599,120 +641,103 @@
               </div>
             </div>
             <!-- / guias -->
+          </div>
+          <div class="tab-pane fade px-md-5 px-sm-3 px-2 pestana section" id="porteadores" role="tabpanel">
             <!-- porteadores -->
-            <div class="container mt-5 mb-3">
-              <div class="d-flex justify-content-center">
-                <h2 class="fw-bold pb-5">Porteadores UGAM</h2>
-              </div>
-              <div class="row my-auto justify-content-center">
-                <div id="porterCarousel" class="carousel carousel-dark slide expedition_carousel" data-bs-ride="false">
-                  <div class="carousel-inner expedition-inner" role="listbox">
-                    <div class="carousel-item expedition-item active">
+            <div class="col-lg-8 offset-lg-2 col-12 py-3 mt-sm-4">
+              <h2 class="text-center">Porteadores UGAM</h2>
+              <p class="pt-2">
+                Dentro de nuestra organización creemos que para una formación de calidad, cada paso es importante. Es
+                por ello que formamos a los primeros técnicos de montaña con conocimientos y experiencia sobre las
+                labores de <b>porteador en zonas de montaña</b>, con el la premisa de seguir creciendo a través de
+                actualizaciones, trabajo y experiencia para convertirse en <b>guías asistentes y guías de primer nivel.
+              </p></b>
+              <p class="pt-2"> Sigue de cerca nuestra sección de <a href="./novedades.html">Novedades</a> para enterarte
+                de nuevos procesos formativos, talleres y promociones.</p>
+              <div class="owl-carousel expedition_carousel">
 
-                      <div class="col-12 col-xl-6 col-xxl-4 offset-md-1 offset-xl-0 mb-3 me-xl-2 ">
-                        <div class="card card-guia rounded rounded-4">
-                          <img class="img-fluid" alt="100%x280"
-                            src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png">
-                          <div class="card-body">
-                            <h5 class="text-center">
-                              Luis Finol
-                            </h5>
-                            <ul class="card-text ">
-                              <li>Rescatista</li>
-                              <li>Ciclista MTB</li>
-                              <li><a href="https://www.instagram.com/arawato.adventures" target="_blank">Arawato</a>
-                              </li>
-                            </ul>
-                            <a href="#" class="btn btn-info" target="_blank">
-                              Contactar
-                            </a>
-                          </div>
-
-                        </div>
-                      </div>
-
-                    </div>
-                    <div class="carousel-item expedition-item">
-                      <div class="col-12 col-xl-6 col-xxl-4 offset-md-1 offset-xl-0 mb-3 me-xl-2">
-                        <div class="card card-guia rounded rounded-4">
-                          <img class="img-fluid" alt="100%x280"
-                            src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png">
-                          <div class="card-body">
-                            <h5 class="text-center">
-                              Héctor Azuaje
-                            </h5>
-                            <ul class="card-text ">
-                              <li>Cineasta</li>
-                              <li>Rescatista</li>
-                              <li><a href="https://www.instagram.com/uromerida/" target="_blank">URO
-                                  Expedición</a></li>
-                            </ul>
-                            <a href="#" class="btn btn-info" target="_blank">
-                              Contactar
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                    <div class="carousel-item expedition-item">
-                      <div class="col-12 col-xl-6 col-xxl-4 offset-md-1 offset-xl-0 mb-3 me-xl-2">
-                        <div class="card card-guia rounded rounded-4">
-                          <img class="img-fluid" alt="100%x280"
-                            src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png">
-                          <div class="card-body">
-                            <h5 class="text-center">
-                              Hainoam Camacaro
-                            </h5>
-                            <ul class="card-text ">
-                              <li>Artista plástico</li>
-                              <li>Rescatista</li>
-                            </ul>
-                            <a href="#" class="btn btn-info" target="_blank">
-                              Contactar
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                    <div class="carousel-item expedition-item">
-                      <div class="col-12 col-xl-6 col-xxl-4 offset-md-1 offset-xl-0 mb-3 me-xl-2">
-                        <div class="card card-guia rounded rounded-4">
-                          <img class="img-fluid" alt="100%x280"
-                            src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png">
-                          <div class="card-body">
-                            <h5 class="text-center">
-                              Yeferso Rojas
-                            </h5>
-                            <ul class="card-text ">
-                              <li>Rescatista</li>
-                              <li>Guía de Alta Montaña</li>
-                              <li>Atleta</li>
-                              <li><a href="https://www.instagram.com/uromerida/" target="_blank">URO</a>
-                              </li>
-                            </ul>
-                            <a href="https://www.instagram.com/vaneegavidia/" class="btn btn-info">
-                              Contactar
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png"
+                      alt="Imagen 1" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="text-center">
+                        Luis Finol
+                      </h5>
+                      <ul class="card-text ">
+                        <li>Rescatista</li>
+                        <li>Ciclista MTB</li>
+                      </ul>
+                      <a href="#" class="btn btn-info" target="_blank">
+                        Contactar
+                      </a>
                     </div>
                   </div>
-                  <a class="carousel-control-prev bg-transparent w-aut" href="#porterCarousel" role="button"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  </a>
-                  <a class="carousel-control-next bg-transparent w-aut" href="#porterCarousel" role="button"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  </a>
+                </div>
+
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png"
+                      alt="Imagen 2" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="text-center">
+                        Héctor Azuaje
+                      </h5>
+                      <ul class="card-text ">
+                        <li>Cineasta</li>
+                        <li>Rescatista</li>
+                      </ul>
+                      <a href="#" class="btn btn-info" target="_blank">
+                        Contactar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png"
+                      alt="Imagen 3" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="text-center">
+                        Hainoam Camacaro
+                      </h5>
+                      <ul class="card-text ">
+                        <li>Artista plástico</li>
+                        <li>Rescatista</li>
+                      </ul>
+                      <a href="#" class="btn btn-info" target="_blank">
+                        Contactar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="https://res.cloudinary.com/arawato666/image/upload/v1660165989/UGAM/icons/image_ymh8za.png"
+                      alt="Imagen 4" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="text-center">
+                        Yeferso Rojas
+                      </h5>
+                      <ul class="card-text ">
+                        <li>Rescatista</li>
+                        <li>Guía de Alta Montaña</li>
+                      </ul>
+                      <a href="https://www.instagram.com/vaneegavidia/" class="btn btn-info">
+                        Contactar
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- / porteadores -->
+            <!-- porteadores -->
           </div>
         </div>
       </div>
@@ -821,5 +846,6 @@
 <script src="./scripts/emailAlert.js"></script>
 <script src="./scripts/displaySections.js"></script>
 <script src="./scripts/topbtn.js"></script>
+<script src="./scripts/owlCarousel.js"></script>
 
 </html>
