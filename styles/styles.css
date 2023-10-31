@@ -186,6 +186,26 @@ body {
 .footer .ugam-rights {
   color: #E6FF2A;
 }
+.footer .lm-contact {
+  padding: 5px 0 5px 0;
+  background-color: #212529;
+  word-spacing: 5px;
+  font-size: 0.8rem;
+}
+.footer .lm-contact strong {
+  color: #00A388;
+}
+.footer .lm-contact img {
+  width: 20px;
+  margin-left: 10px;
+}
+.footer .lm-contact a:hover {
+  color: #02b899;
+  font-size: 0.82rem;
+}
+.footer .lm-contact a:hover img {
+  width: 23px;
+}
 
 #header-scroll.header nav {
   -webkit-box-shadow: 0 0 7px 0 black;

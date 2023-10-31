@@ -49,4 +49,30 @@
     .ugam-rights {
         color: $CTA;
     }
+
+    .lm-contact {
+        padding: 5px 0 5px 0;
+        background-color: #212529;
+        word-spacing: 5px;
+        font-size: 0.8rem;
+
+        strong {
+            color: #00A388;
+        }
+
+        img {
+            width: 20px;
+            margin-left: 10px;
+        }
+
+        a:hover {
+            img {
+                width: 23px;
+            }
+
+            color: #02b899;
+            font-size: 0.82rem;
+        }
+    }
+
 }
