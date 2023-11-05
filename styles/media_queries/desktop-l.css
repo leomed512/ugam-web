@@ -24,4 +24,9 @@
   #recipeCarousel .card-guia img {
     height: 50vh;
   }
+
+  .porter img {
+    border-radius: 30px 30px 30px 30px !important;
+    height: 40vh !important;
+  }
 }

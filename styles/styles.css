@@ -119,14 +119,8 @@ body {
   overflow: hidden;
 }
 
-.owl-carousel .expedition_carousel img {
-  border-radius: 10px 10px 0px 0px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-  height: 40vh;
-  overflow: hidden;
+.porter img {
+  border-radius: 30px 30px 30px 30px !important;
 }
 
 .contactForm {
