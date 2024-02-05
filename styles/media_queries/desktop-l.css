@@ -3,15 +3,12 @@
     display: block;
     font-size: 1.2rem;
   }
-
   .galleryOne img {
     max-height: 800px;
   }
-
   .galleryTwo .galleryTwo-carousel {
     max-height: 950px;
   }
-
   .education_carousel__img img {
     height: 50vh;
     width: 60vw;
@@ -20,11 +17,9 @@
   .education_carousel h6 {
     max-width: 900px;
   }
-
   #recipeCarousel .card-guia img {
     height: 50vh;
   }
-
   .porter img {
     border-radius: 30px 30px 30px 30px !important;
     height: 40vh !important;
