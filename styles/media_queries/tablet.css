@@ -10,7 +10,6 @@
   .section-one h1 {
     font-size: 2.6rem;
   }
-
   .section-two img {
     width: 250px;
     -webkit-margin-after: 30px;
@@ -19,18 +18,15 @@
   .section-two h3 {
     font-size: 1.4rem;
   }
-
   .card-ugam {
     min-height: 500px;
   }
   .card-ugam h5 {
     font-size: 1.5rem;
   }
-
   .galleryOne img {
     max-height: 360px;
   }
-
   .galleryTwo {
     position: relative;
   }
@@ -42,16 +38,17 @@
   .galleryTwo .galleryTwo-carousel {
     max-height: 450px;
   }
-
   .expedition-item div.card-body {
     min-height: 250px;
   }
-
   .organization {
     height: 650px;
   }
-
   #aboutus .imageUs img {
     height: 35vh;
+  }
+  /* resumen en home page*/
+  .novedades-resumen .card {
+    min-height: 320px;
   }
 }

@@ -3,7 +3,6 @@
     display: block;
     font-size: 0.9rem;
   }
-
   .section-one {
     height: 900px;
   }
@@ -11,23 +10,18 @@
     width: 320px;
     height: 400px;
   }
-
   .section-two h3 {
     font-size: 1.6rem;
   }
-
   .card-ugam {
     min-height: 580px;
   }
-
   .galleryOne img {
     max-height: 460px;
   }
-
   .galleryTwo .galleryTwo-carousel {
     max-height: 550px;
   }
-
   .education_carousel__content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -37,21 +31,21 @@
   .education_carousel__content div {
     width: 50%;
   }
-
   .organization-content img {
     max-width: 650px;
   }
-
   .card-guia {
     min-height: 630px;
     max-width: none;
   }
-
   .expedition img {
     max-width: 600px;
   }
-
   #recipeCarousel .card-guia img {
     height: 70vh;
+  }
+  /* resumen en home page*/
+  .novedades-resumen .card {
+    min-height: 400px;
   }
 }

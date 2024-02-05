@@ -1,0 +1,49 @@
+.lista-novedades {
+max-width: 500px;
+ background-color: #212529;
+ color: #fff;
+ border-radius: 10px;
+ li {
+    background-color: #212529;
+ }
+ a {
+    color: #fff;
+ }
+ a:hover {
+    color: $CTA;
+    font-size: large;
+ }
+
+}
+/*seccion ppal*/
+#nove .card img {
+    object-fit: cover;
+    object-position: center;
+    height: 30vh;
+    overflow: hidden;
+}
+/*para cada entrada*/
+#novedad .card img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+}
+/*hakunaa*/
+#hakuna .card img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+}
+
+/* resumen en home page*/
+.novedades-resumen {
+    border-top: solid 1px #212529;
+    .card {
+        box-shadow: 3px 3px 5px rgba(#000, $alpha: 0.2);
+        img {
+            border-radius: 10px;
+        }
+    }
+}

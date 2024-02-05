@@ -242,6 +242,65 @@ body {
   text-decoration: underline;
 }
 
+.lista-novedades {
+  max-width: 500px;
+  background-color: #212529;
+  color: #fff;
+  border-radius: 10px;
+}
+.lista-novedades li {
+  background-color: #212529;
+}
+.lista-novedades a {
+  color: #fff;
+}
+.lista-novedades a:hover {
+  color: #E6FF2A;
+  font-size: large;
+}
+
+/*seccion ppal*/
+#nove .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 30vh;
+  overflow: hidden;
+}
+
+/*para cada entrada*/
+#novedad .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+/*hakunaa*/
+#hakuna .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+/* resumen en home page*/
+.novedades-resumen {
+  border-top: solid 1px #212529;
+}
+.novedades-resumen .card {
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.novedades-resumen .card img {
+  border-radius: 10px;
+}
+
 .section-one {
   height: 600px;
   background-image: url("https://res.cloudinary.com/arawato666/image/upload/v1686673982/UGAM/fondo_4_1_wq0sbf.png");
@@ -448,7 +507,6 @@ body {
   .carousel-inner .carousel-item > div {
     display: none;
   }
-
   .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
@@ -514,13 +572,12 @@ body {
 /* medium and up screens */
 @media (min-width: 768px) {
   .expedition-inner .expedition-item-end.active,
-.expedition-inner .expedition-item-next {
+  .expedition-inner .expedition-item-next {
     -webkit-transform: translateX(25%);
             transform: translateX(25%);
   }
-
   .expedition-inner .expedition-item-start.active,
-.expedition-inner .expedition-item-prev {
+  .expedition-inner .expedition-item-prev {
     -webkit-transform: translateX(-25%);
             transform: translateX(-25%);
   }
