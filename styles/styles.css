@@ -357,6 +357,7 @@ button.copyme {
 
 .wpbtn {
   border: none;
+  background: transparent !important;
 }
 
 .section-one {
