@@ -9,9 +9,9 @@
   <meta name="robots" content="index, follow">
   <meta property="og:title" content="Banya en Los Andes: Récord mundial de sauna a mayor altitud en el mundo " />
   <meta property="og:description" content="Récord mundial de sauna a mayor altitud en el mundo" />
-  <meta property="og:image" content="https://res.cloudinary.com/arawato666/image/upload/v1691507693/leomedina_web/ugamvenezuela_mna8n9.png" />
+  <meta property="og:image" content="https://res.cloudinary.com/arawato666/image/upload/v1728386273/imagen11_ndk5wg.jpg" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ugamvenezuela.com/nueva-web.html" />
+  <meta property="og:url" content="https://ugamvenezuela.com/record-banya.html" />
   <title>Novedades | UGAM Venezuela</title>
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="stylesheet" href="./styles/media_queries/mobile.css" media="screen and (min-width:550px)">
@@ -29,6 +29,7 @@
     href="https://fonts.googleapis.com/css2?family=Carter+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 
 <body>
@@ -216,6 +217,56 @@
         <!-- gallery -->
          <p> <b>Redacción: </b>Leonardo Medina <br> <b>Historia original y fotografías:</b> José Ramón Sánchez</p>
         </div>
+                  <!-- share me -->
+<section class="text-center my-5">
+  <h5>Comparte </h3>
+  <article class="d-flex justify-content-center align-items-center mt-3">
+     <a class="mx-1" href="https://www.facebook.com/sharer/sharer.php?u=https://www.ugamvenezuela.com/record-banya.html" target="_blank">
+        <img src="https://res.cloudinary.com/arawato666/image/upload/v1728462597/icons8-facebook-50_jfstt4.png" alt="Compartir en Facebook" width="30" height="30">
+      </a>
+      <a class="mx-1"  href="https://twitter.com/intent/tweet?url=https://www.ugamvenezuela.com/record-banya.html" target="_blank">
+        <img src="https://res.cloudinary.com/arawato666/image/upload/v1728462597/icons8-x-50_rns8gb.png" alt="Compartir en X" width="30" height="30">
+    </a>
+    <button class="wpbtn mx-1" id="whatsappShare" target="_blank">
+      <img src="https://res.cloudinary.com/arawato666/image/upload/v1728462596/icons8-whatsapp-50_p2g85h.png" alt="Compartir en X" width="30" height="30">
+    </button>
+    <button class="copyme btn btn-sm mx-1" onclick="copiarEnlace()">Copiar enlace</button>
+
+    <!-- Mensaje flotante -->
+    <div id="mensaje">Enlace copiado!</div>
+    <script>function copiarEnlace() {
+      // Crea un elemento temporal
+      var enlace = document.createElement('textarea');
+      enlace.value = window.location.href; // Copia la URL actual
+      document.body.appendChild(enlace);
+      enlace.select();
+      document.execCommand('copy'); // Copia al portapapeles
+      document.body.removeChild(enlace); // Elimina el elemento temporal
+    
+      // Muestra el mensaje flotante
+      var mensaje = document.getElementById('mensaje');
+      mensaje.classList.add('show');
+    
+      // Desaparece el mensaje después de 3 segundos
+      setTimeout(function() {
+          mensaje.classList.remove('show');
+      }, 3000); // 3000ms = 3 segundos
+    }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+    const whatsappButton = document.getElementById('whatsappShare');
+
+    whatsappButton.addEventListener('click', function() {
+        const mensajeWhatsApp = "¡Mira este enlace! " + window.location.href; // Mensaje a compartir
+        const urlWhatsApp = "https://api.whatsapp.com/send?text=" + encodeURIComponent(mensajeWhatsApp);
+        window.open(urlWhatsApp, '_blank'); // Abre WhatsApp en una nueva pestaña
+    });
+});
+</script>
+</body>
+  </article>
+</section>
+        <!-- share me -->
         <div class="d-flex justify-content-center my-5">
           <a class="py-2 btn btn-info" href="./novedades.html"><i class="fas fa-long-arrow-alt-left px-2"></i> Volver a Novedades</a>
         </div>
@@ -318,6 +369,7 @@
 
 
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
   integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
@@ -326,5 +378,4 @@
 <script src="./scripts/emailAlert.js"></script>
 <script src="./scripts/displaySections.js"></script>
 <script src="./scripts/topbtn.js"></script>
-
 </html>

@@ -86,7 +86,7 @@
       <div class="row">
         <div class="col-md-8 offset-md-2 col-12 py-3 px-3 organization-content mt-sm-4">
           <h1 class="pt-4 ">Página Web Oficial UGAM</h4>
-                <h6>febrero de 2024</h6>
+                <h6>enero de 2024</h6>
                 <p class="mt-5 lh-lg ">
                   ¡Aventureros y amantes de la montaña, el día ha llegado! Estamos emocionados de anunciar el lanzamiento oficial de nuestra nueva página web, una ventana virtual a la emocionante experiencia que ofrece la Unión de Guías de Aventura y Montaña <br><br>
 
@@ -120,6 +120,56 @@
         </div>
         <!-- gallery -->
         </div>
+                  <!-- share me -->
+<section class="text-center my-5">
+  <h5>Comparte </h3>
+  <article class="d-flex justify-content-center align-items-center mt-3">
+     <a class="mx-1" href="https://www.facebook.com/sharer/sharer.php?u=https://www.ugamvenezuela.com/nueva-web.html" target="_blank">
+        <img src="https://res.cloudinary.com/arawato666/image/upload/v1728462597/icons8-facebook-50_jfstt4.png" alt="Compartir en Facebook" width="30" height="30">
+      </a>
+      <a class="mx-1"  href="https://twitter.com/intent/tweet?url=https://www.ugamvenezuela.com/nueva-web.html" target="_blank">
+        <img src="https://res.cloudinary.com/arawato666/image/upload/v1728462597/icons8-x-50_rns8gb.png" alt="Compartir en X" width="30" height="30">
+    </a>
+    <button class="wpbtn mx-1" id="whatsappShare" target="_blank">
+      <img src="https://res.cloudinary.com/arawato666/image/upload/v1728462596/icons8-whatsapp-50_p2g85h.png" alt="Compartir en X" width="30" height="30">
+    </button>
+    <button class="copyme btn btn-sm mx-1" onclick="copiarEnlace()">Copiar enlace</button>
+
+    <!-- Mensaje flotante -->
+    <div id="mensaje">Enlace copiado!</div>
+    <script>function copiarEnlace() {
+      // Crea un elemento temporal
+      var enlace = document.createElement('textarea');
+      enlace.value = window.location.href; // Copia la URL actual
+      document.body.appendChild(enlace);
+      enlace.select();
+      document.execCommand('copy'); // Copia al portapapeles
+      document.body.removeChild(enlace); // Elimina el elemento temporal
+    
+      // Muestra el mensaje flotante
+      var mensaje = document.getElementById('mensaje');
+      mensaje.classList.add('show');
+    
+      // Desaparece el mensaje después de 3 segundos
+      setTimeout(function() {
+          mensaje.classList.remove('show');
+      }, 3000); // 3000ms = 3 segundos
+    }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+    const whatsappButton = document.getElementById('whatsappShare');
+
+    whatsappButton.addEventListener('click', function() {
+        const mensajeWhatsApp = "¡Mira este enlace! " + window.location.href; // Mensaje a compartir
+        const urlWhatsApp = "https://api.whatsapp.com/send?text=" + encodeURIComponent(mensajeWhatsApp);
+        window.open(urlWhatsApp, '_blank'); // Abre WhatsApp en una nueva pestaña
+    });
+});
+</script>
+</body>
+  </article>
+</section>
+        <!-- share me -->
         <div class="d-flex justify-content-center my-5">
           <a class="py-2 btn btn-info" href="./novedades.html"><i class="fas fa-long-arrow-alt-left px-2"></i> Volver a Novedades</a>
         </div>
